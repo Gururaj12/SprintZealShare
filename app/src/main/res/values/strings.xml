@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">SprintZeal</string>
+    <string name="floatname">SprintZeal\nDeal</string>
+    <string name="keyhash">L1O+e7UCSfsbnXK9yMrm04SBfAk=</string>
+   <!-- <string name="facebook_app_id">1060135327480079</string>
+    <string name="fb_login_protocol_scheme">fb1060135327480079</string>-->
+
+   <!-- <string name="facebook_app_id">746525505696842</string>
+    <string name="fb_login_protocol_scheme">fb746525505696842</string>-->
+
+    <string name="facebook_app_id">184463645786582</string>
+    <string name="fb_login_protocol_scheme">fb184463645786582</string>
+
+
+
+    <string name="at">copyright SprintZeal</string>
+    <string name="information">Unlimited Access to\nEntrepreneurial and Career\nDevelopment Courses for Only\n $9.99 per Month</string>
+    <string name="offertype">Join FREE for 3 Days\nThen Only $9.99/Month</string>
+    <string name="login">Log In</string>
+    <string name="memberlogin">Log In to SprintZeal</string>
+    <string name="forgotpasword">Forgot Password?</string>
+    <string name="forgotpaswordtext">Reset Password</string>
+    <string name="forgotpaswordtextinfornation">RETRIEVE MY INFORMATION</string>
+    <string name="note">Unlimited Streaming in Sd at Rs 500 a month after change free trail\nBy checking the checkbox below,you agree to our
+    Terms of Use ,Privacy Statement,and that you are 18.You may cancel at any time in your free trial and will not be charged.</string>
+
+
+    <string name="step1">STEP 1 OF 3</string>
+    <string name="signuptostart">Sign up to start your free 3 day trial</string>
+    <string name="twomorestep">Just two more steps and you are done\nWe hate filling out forms too.</string>
+    <string name="createaccount">Create your account..</string>
+    <string name="con">Continue</string>
+
+    <string name="step2">STEP 2 OF 3</string>
+    <string name="step2plan">Unlimited Access to Entrepreneurial and Career Development Courses for Only $9.99 per Month. Register in app and enjoy your learning for unlimited training program. We wont charge you for first 3 days until the trial ends.</string>
+    <string name="canceltext">If you decide the courses in Knowledge Society arent for you no problem. You can easily cancel at anytime.</string>
+    <string name="canceltext1">Life is Too Short To Waste Time and Money Learning Things You ll Never Use</string>
+    <string name="canceltext2">Choosing a career shouldnt cost you a fortune. The problem with college today is that it does. Too many people are spending tens of thousands of dollars on degrees that have little value in the modern world.
+
+This is why there iss now more than $1.48 trillion in student loan debt. Too much money is wasted. But it is not just about the money. Time - something you ll never get back - is also lost. College forces you to attend for multiple semesters, take classes you dont care about, and waste a few years before graduating.
+
+Yet graduation is only the beginning. Having a degree does not guarantee you will get a job. Most people end up spending a few more years working entry-level positions to add job experience to their resume.
+
+Is there a better way? Absolutely. And it won't cost you tens of thousands of dollars, put you in debt, or make you wait years before seeing tangible results.
+
+Introducing Knowledge Society: a way for you to get:</string>
+    <string name="canceltext3">Unlimited Access To Practical Career Courses!</string>
+    <string name="canceltext4">Choosing a career and improving your life just got easier. Knowledge Society teaches you practical life lessons from recognized experts who have real-world experience and success doing what they show you.
+        The worlds changing too fast for colleges to keep up. This is why Knowledge Society members get multiple new courses every month. Some of the things you ll learn about include:
+    </string>
+    <string name="canceltext5">Start A Social Media Marketing Agency\nMake Money Growing Instagram Followings\nGet Paid Being A Copywriter\nBecome A Personal Trainer\nLearn How To Flip Real Estate Contracts\nHow To Sell T-shirts On Facebook\nHow To Start A Profitable Hair Salon\nHow To Sell Digital Products As An Affiliate\nMake More Money As An Uber Driver\nBook Publishing Secrets\nSet Up An Autobody Shop\nHow To Set Up A Food Truck Business\nHow To Start A Mobile Car Wash Business\nSecrets Of Running A Six-Figure Airbnb Business\nHow To Make Money Teaching Languages Online\nHow To Make Money Being A Gamer\nHow To Create A Money Making App\nHow to Start an Electronics Repair Business\nHow To Set Up An IT Support Business\nAnd many more
+</string>
+    <string name="canceltext6">Learn From Anywhere, On Your Own Schedule</string>
+    <string name="canceltext7">It doesnt matter if you only have 15 minutes spare time on the bus to work. Or an hour before bed. You can log in and learn as long as you are connected to the internet. All your progress through the courses is saved, so you can pick up exactly where you left off.Each course is about an hour long and holds nothing back. You will learn things that you can use immediately after taking the course. Since there are multiple courses to learn from, you can watch as many as you want - as many times as you like - before deciding which you want to implement.What if you're already employed? No problem. You can still earn a certification to showcase your new skills and potentially earn a raise.</string>
+    <string name="canceltext8">The Evolution of Education</string>
+    <string name="canceltext9">The internet has changed education forever. We communicate and learn at a pace faster than any other time in history. While the rest of the world relies on a traditional education only, you can pursue a self education that gets you ahead.Until now, theres never been a convenient place to learn everything they should have taught you in school.Knowledge Society is that place. Start now and you will gain instant access to an online library of multiple career courses thats constantly updated over time. Click the button below to begin your first course!</string>
+    <string name="canceltext10">Still Have Questions?</string>
+    <string name="canceltext11">We got your back. Here what people regularly ask - and how we respond.</string>
+    <string name="canceltext12">What will Knowledge Society teach me?.</string>
+    <string name="canceltext13">Knowledge Society focuses on four main pillars of online education: health, wealth, love, and happiness. At this time, we are focusing on wealth - practical skills that you can use to start or grow your career. Because there is multiple courses, you will learn both beginner and advanced concepts.</string>
+    <string name="canceltext14">Is Knowledge Society a replacement for college?.</string>
+    <string name="canceltext15">Not at all. It is more like a supplement. Because the lessons require less time and money than a semester of school, you can learn while attending college. We had many high school and college students use our courses to start businesses that makes more than what their parents earn</string>
+    <string name="canceltext16">Who is teaching Knowledge Society courses?.</string>
+    <string name="canceltext17">You can expect to learn from teachers who have experience in what they talk about. Some of the results our teachers have accomplished include: starting a multimillion dollar t-shirt business, closing 5-, 6- and even 7-figure real estate deals, and investing over 9 figures in paid advertising.</string>
+    <string name="devicetext1">Learn from the comfort of your home or on the go, whenever you want - the choice is yours.</string>
+    <string name="devicetext2">Log into your private account\nWatch via any device with internet access.</string>
+    <string name="devicetext3">Learn on your own schedule\nStart or stop the videos anytime. Pause and pick up where you left off easily.</string>
+    <string name="devicetext4">Use any computer\nWatch right on Knowledgesociety.com.</string>
+    <string name="devicetext5">* Results are not typical. Any experiences shown are not a guarantee you will make money. You may make more, less or the same.</string>
+
+    <string name="pricetext">Get access to specialized video training that teaches practical skills for
+improving your career and life, every month. Weekly content updates from
+multiple world's best experts.</string>
+    <string name="priceduration">Benefits - </string>
+    <string name="pricewatch">Watch on your laptop, TV, phone and tablet</string>
+    <string name="priceaccess">Unlimited access</string>
+    <string name="pricecancel">Cancel at any time</string>
+    <string name="pricevideos">Exclusive tips and secrets </string>
+
+    <string name="title_shop">Home</string>
+    <string name="title_gifts">Search</string>
+    <string name="title_cart">LVC Training</string>
+    <string name="title_profile">Offers</string>
+    <string name="title_more">More</string>
+
+
+    <string name="hint_email">E-mail Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="welcome">Welcome</string>
+
+    <string name="policy">By Clicking on create account you agree to our terms of use and privacy policy</string>
+
+
+    <string name="name">Full name</string>
+    <string name="hint_number">Contact Number</string>
+    <string name="search">Search for Courses like Quality management\nCloud Computing\n \nProject Management\nDigital Marketing\nMarketing Research\nBig Data\nPMP\nSix Sigma\nAgile Management\nScrum and Agile \nIT Security\nIT Service Management\nMore...</string>
+
+
+    <string name="lms">1)	What is LMS??</string>
+    <string name="lmsans">A learning management system(LMS) is a software application fot the administration documentation and delivery of educational courses or training</string>
+    <string name="lms2">2)	How LMS is useful?</string>
+    <string name="lms3">3)	Why should one use LMS?</string>
+    <string name="lms4">4)	How do I access LMS?</string>
+    <string name="lms5">5)	How do I login to the LMS?</string>
+    <string name="lms6">6)	How do I change my LMS password?</string>
+    <string name="lms7">7)	Is there a time limit for activity in LMS system?</string>
+    <string name="lms8">8)	How do I extend the time limit of my study course?</string>
+    <string name="lms9">9)	What should I do if am unable to login LMS?</string>
+    <string name="lms10">10)	Are there any free videos in the LMS?</string>
+    <string name="lms11">11)	How can I get LMS help?</string>
+    <string name="lms12">12)	How do I register to other courses?</string>
+    <string name="lms13">13)	Is there any affiliate/partner on registering for LMS?</string>
+    <string name="lms14">14)	Will I get some more discounts on registering course of same category which I have already registered?</string>
+    <string name="lms15">15)	How to get the certificate after completing the course?</string>
+    <string name="lms16">16)	Do I get a copy of the certificate by post or by email?</string>
+
+    <string name="lmsans2">Learning management system is an independent tool wherein anyone can have access to their learning accounts anywhere and anytime.</string>
+    <string name="lmsans3">LMS offers great consolidated training platform, wherein one can use the LMS to find and register for training, Track their training, manage career training goals.</string>
+    <string name="lmsans4">Use the following link as follows or type the web address on your browser. https://lms.sprintzeal.com</string>
+    <string name="lmsans5">Credentials will be shared via email, which has a user name and password for login. Or send email to us at support@sprintzeal.com</string>
+    <string name="lmsans6">When you are logged in with the old password, a)	Take curser at the top right to the sprintzeal logo b)	Under the drop down select change password</string>
+    <string name="lmsans7">Yes, at the time of registration the number of days is been registered.</string>
+    <string name="lmsans8">You need to contact to our email support- support@sprintzeal.com</string>
+    <string name="lmsans9">Check with the different browser, still the problem exists send email to support@sprintzeal.com</string>
+    <string name="lmsans10">There are few Demo videos, But you need to register to get the full access contact support@sprintzeal.com</string>
+    <string name="lmsans11">Contact us anytime on support@sprintzel.com</string>
+    <string name="lmsans12">Right side of the home page you can find the best offers available, once clicked it will be redirected to the website</string>
+    <string name="lmsans13">Yes, 25% of amount will be the commission amount earned by the recommended partner.</string>
+    <string name="lmsans14">Yes, for more details contact support@sprintzeal.com</string>
+    <string name="lmsans15">Once completing of the course, registration link will be displayed to apply for online examination.</string>
+    <string name="lmsans16">It depends on the course and the certifying body of the respective course. If they provide hard copy of the certificate, we will dispatch the same to you and if it is soft copy, you will receive the same via email. The course completion certificate from Sprintzeal will be a soft copy.</string>
+
+
+</resources>

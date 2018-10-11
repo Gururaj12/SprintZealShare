@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".home.HomePlanActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step2"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:id="@+id/step1signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/step2plan"
+        android:padding="5dp"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+
+
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/steptextmonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/priceduration"
+
+
+        />
+    <TextView
+        android:id="@+id/steptexlap"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricewatch"
+
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/steptextaccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/priceaccess"
+
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+        android:id="@+id/steptextcancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricecancel"
+
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+android:id="@+id/videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricevideos"
+
+
+        android:layout_marginTop="30dp"
+
+        />
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="buttonplancontinue"
+
+        android:text="@string/con" />
+</LinearLayout>

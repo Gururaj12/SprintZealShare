@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".HomeBottomNavigationActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:gravity="center"
+
+        android:layout_alignParentLeft="true"
+        android:background="@color/colorWhite" />
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_above="@+id/navigation"
+        android:background="#000000"></View>
+
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+
+        android:background="@drawable/bottomnavigationborder"
+        app:itemBackground="@color/colorWhite"
+        android:foreground="?attr/selectableItemBackground"
+        app:itemIconTint="#FF4500"
+        app:itemTextColor="#ff7700"
+        app:menu="@menu/navigation" >
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/tools"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:fabSize="auto"
+            android:background="@drawable/textround"
+
+            android:backgroundTint="#ece8e6"
+            android:layout_marginBottom="10dp"
+            android:elevation="6dp"
+
+
+            android:scaleType="center"
+             />
+        <TextView
+            android:id="@+id/bounce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+           android:text="@string/floatname"
+            android:elevation="16dp"
+            android:textAlignment="center"
+
+
+            android:layout_marginBottom="10dp"
+            android:textSize="10dp"
+            android:textColor="@color/colorButton"
+            android:textAppearance="?android:attr/textAppearanceMedium"></TextView>
+
+    </android.support.design.widget.BottomNavigationView>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

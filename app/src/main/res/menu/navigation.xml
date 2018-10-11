@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_shop"
+        android:color="@color/colorBlack"
+
+
+        android:icon="@drawable/ic_action_name_home"
+        android:title="@string/title_shop" />
+
+    <item
+        android:id="@+id/navigation_gifts"
+        android:color="@color/colorBlack"
+
+        android:icon="@drawable/ic_action_name_search"
+        android:title="@string/title_gifts" />
+
+    <item
+        android:id="@+id/navigation_cart"
+        android:color="@color/colorBlack"
+
+        android:icon="@drawable/ic_action_lvc"
+        android:title="" />
+
+    <item
+        android:color="@color/colorBlack"
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_action_name_offers"
+        android:title="@string/title_profile" />
+    <item
+        android:color="@color/colorBlack"
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_action_name_more"
+        android:title="@string/title_more" />
+
+</menu>

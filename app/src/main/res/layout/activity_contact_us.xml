@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/water"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/contactbar"
+        android:elevation="3dp"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/profile_layout"
+
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+
+                android:src="@drawable/newlogo"/>
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/contactname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Name"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:background="@drawable/edt_bg_selector"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/contactemail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Email Address"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:background="@drawable/edt_bg_selector"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/contactaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Phone Number"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:background="@drawable/edt_bg_selector"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+
+                android:paddingLeft="20dp"
+                android:padding="10dp"
+                android:paddingRight="20dp" >
+
+                <TextView
+                    android:id="@+id/contactmessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="Message"/>
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+
+
+                    android:background="@drawable/edt_bg_selector"
+                    android:inputType="textEmailAddress"
+                    android:padding="5dp" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorButton"
+                android:layout_gravity="center"
+                android:background="@drawable/mybutton"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Send" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

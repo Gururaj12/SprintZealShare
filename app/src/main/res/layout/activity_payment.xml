@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".home.PaymentActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dp"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorWhite" />
+
+
+    <TextView
+        android:id="@+id/step3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STEP 3 OF 3"
+        android:layout_marginTop="25dp"
+        android:padding="5dp"
+        android:gravity="center"
+
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:id="@+id/step3signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Up Your credit or debit card"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+
+
+        android:gravity="center"
+        android:layout_gravity="center"
+
+
+        />
+
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/paymentcardnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Card Number"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+
+            android:background="@drawable/edt_bg_selector"
+            android:inputType="textEmailAddress"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        android:paddingLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp" >
+
+        <TextView
+            android:id="@+id/paymentsecuritycode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="Security code"/>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+
+
+            android:background="@drawable/edt_bg_selector"
+            android:inputType="textEmailAddress"
+            android:padding="5dp" />
+    </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="50"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Expiry Month:"
+                />
+            <TextView
+                android:layout_weight="50"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Expiry Year:"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+           <Spinner
+               android:layout_weight="40"
+               android:id="@+id/expirymonth"
+               android:padding="10dp"
+               android:background="@drawable/spinner_border"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"></Spinner>
+            <View
+                android:layout_weight="10"
+                android:layout_width="1dp"
+                android:layout_height="2dp"></View>
+          <Spinner
+              android:layout_weight="40"
+              android:id="@+id/expiryyear"
+              android:padding="10dp"
+              android:layout_width="wrap_content"
+              android:background="@drawable/spinner_border"
+              android:layout_height="wrap_content"></Spinner>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:padding="4dp"
+                android:src="@drawable/visa"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="4dp"
+                android:src="@drawable/mastercard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="4dp"
+
+                android:src="@drawable/americanexpress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:padding="4dp"
+
+                android:src="@drawable/discover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/plan"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Plan"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/limitedplan"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/note"
+
+            />
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/paymentcheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="read and accept Terms and Conditions"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorButton"
+            android:layout_gravity="center"
+            android:background="@drawable/mybutton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Start Membership"
+            android:onClick="buttonmember"/>
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorButton"
+            android:layout_gravity="center"
+            android:background="@drawable/mybutton"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="logout"
+           />
+    </LinearLayout>
+
+</ScrollView>

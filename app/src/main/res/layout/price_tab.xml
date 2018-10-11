@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#36373D"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textdescp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricetext"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/offertype"
+        android:onClick="buttonlogin"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/priceduration"
+        android:textSize="15dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricewatch"
+        android:textSize="15dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/priceaccess"
+        android:textSize="15dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricecancel"
+        android:textSize="15dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/pricevideos"
+        android:textSize="15dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TableRow
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#b3b5b7"></TableRow>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext1"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext2"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext3"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext4"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext5"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/offertype"
+        android:onClick="buttonlogin"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext6"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext7"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext8"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext9"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/offertype"
+        android:onClick="buttonlogin"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext10"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext11"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext12"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext13"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext14"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext15"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext16"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="@string/canceltext17"
+        android:textSize="20dp"
+
+        android:layout_marginTop="30dp"
+
+        />
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorButton"
+        android:layout_gravity="center"
+        android:background="@drawable/mybutton"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/offertype"
+        android:onClick="buttonlogin"/>
+</LinearLayout>
