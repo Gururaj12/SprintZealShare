@@ -47,6 +47,7 @@ import com.sprintzeal.sprint.sprintzeal.R;
 import com.sprintzeal.sprint.sprintzeal.RecyclerTouchListener;
 import com.sprintzeal.sprint.sprintzeal.TestFragment;
 import com.sprintzeal.sprint.sprintzeal.Trunks;
+import com.sprintzeal.sprint.sprintzeal.home.HomePage;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -177,12 +178,30 @@ progress=view.findViewById(R.id.progress);
 
         //Init
         retMyCources();
+        democourse();
         //--
 
 
         return view;
 
 
+    }
+    private void recyclerView(RecyclerView recyclerView) {
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        this.feedsAdapter = new CategoryAdapter(getContext(), this.testCategoryModels, this);
+        recyclerView.setAdapter(this.feedsAdapter);
+        this.feedsAdapter.notifyDataSetChanged();
+        this.feedsAdapter.setClickListener(this);
+        feedsAdapter.setClickListener(this);
+    }
+
+    private void recyclerViewMyList(List<ExampleCourseList> list) {
+        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.myrecyclerdata);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), 0, false));
+        RecyclerView.Adapter courseAdapter = new ExampleCourseAdapter(getActivity(), list, 1);
+        recyclerView.setAdapter(courseAdapter);
+        courseAdapter.notifyDataSetChanged();
+      //  courseAdapter.setClickListener(this);
     }
    /* private void recyclerView(RecyclerView recyclerView) {
 
@@ -289,7 +308,8 @@ Log.d("train",mol.getTrainerNAme());
                                 exampleCourseList.setCourseId(my_CourseId);
                                 exampleCourseList.setCourseName(my_CourseName);
                                 exampleCourseList.setCourseImgUrl(my_CourseImg);
-                              //  MyCourseFragment.this.exampleCourseLists.add(exampleCourseList);
+                               MyCourseFragment.this.exampleCourseLists.add(exampleCourseList);
+                               testCategoryModel.setExampleCourseLists(exampleCourseLists);
 
 
 
@@ -305,7 +325,7 @@ Log.d("train",mol.getTrainerNAme());
                                     String trainername=json_message_mytrainer.getString("trainerName");
 
                                     ExampleTrainer exampleTrainer=new ExampleTrainer();
-                                    exampleTrainer.setTrainerId(trainer_id);
+                                    exampleTrainer.setTrainerId(trainerid);
                                     exampleTrainer.setTrainerName(trainername);
                                     MyCourseFragment.this. exampleTrainers.add(exampleTrainer);
                                     SharedPreferences sp = getActivity().getSharedPreferences(Trunks.SHP_NAME, MODE_PRIVATE);
@@ -318,17 +338,19 @@ Log.d("train",mol.getTrainerNAme());
                                 recyclerView(allCourseList);*/
 
                              exampleCourseList.setExampleTrainers( MyCourseFragment.this.exampleTrainers);
-                                MyCourseFragment.this. exampleCourseLists.add(exampleCourseList);
+                               //data12 MyCourseFragment.this. exampleCourseLists.add(exampleCourseList);
 
 
 
 
 
                             }
-                            recyclerViewMyList( MyCourseFragment.this.exampleCourseLists);
+
 
                             testCategoryModel.setExampleCourseLists(exampleCourseLists);
-                            testCategoryModels.add(testCategoryModel);
+
+
+                         //data  testCategoryModels.add(testCategoryModel);
                            /* testAdapter=new CatTestAdapter(testCategoryModels,getContext());
 
                             recyclerView1.setAdapter(testAdapter);
@@ -340,7 +362,11 @@ Log.d("train",mol.getTrainerNAme());
                             myadapter.notifyDataSetChanged();*/
                         }
 
-                        for (int i = 0; i < cat_course.length(); i++) {
+
+                        recyclerViewMyList( MyCourseFragment.this.exampleCourseLists);
+
+
+               /*         for (int i = 0; i < cat_course.length(); i++) {
 
                             JSONObject json_message = cat_course.getJSONObject(i);
 
@@ -348,9 +374,9 @@ Log.d("train",mol.getTrainerNAme());
                             String catname = json_message.getString("catName");
                             String catId = json_message.getString("catId");
 
-                         /*   TestCategoryModel testCategoryModel=new TestCategoryModel();
+                            TestCategoryModel testCategoryModel=new TestCategoryModel();
                             testCategoryModel.setCatId(catId);
-                            testCategoryModel.setCatName(catname);*/
+                            testCategoryModel.setCatName(catname);
                             JSONArray d = (JSONArray) json_message.get("courseList");
                             for (int z = 0; z < d.length(); z++) {
                                 ExampleCourseList exampleCourseList=new ExampleCourseList();
@@ -359,15 +385,15 @@ Log.d("train",mol.getTrainerNAme());
                                 String CourseName = json_message1.getString("courseName");
                                 String CourseImg = json_message1.getString("courseImgUrl");
 
-                              /*  exampleCourseList.setCourseId(CourseId);
+                                exampleCourseList.setCourseId(CourseId);
                                 exampleCourseList.setCourseName(CourseName);
                                 exampleCourseList.setCourseImgUrl(CourseImg);
-                                MyCourseFragment.this.  exampleCourseLists.add(exampleCourseList);*/
+                          //data123      MyCourseFragment.this.  exampleCourseLists.add(exampleCourseList);
 
                                 JSONArray category_trainer = (JSONArray) json_message1.get("courseTrainerz");
 
                                 Log.d("cattrainer", String.valueOf(category_trainer));
-                              /*  for (int a= 0; a < category_trainer.length(); a++){
+                                for (int a= 0; a < category_trainer.length(); a++){
                                     JSONObject json_message_mytrainer = category_trainer.getJSONObject(a);
 
                                     String cattrainerid=json_message_mytrainer.getString("trainerId");
@@ -377,30 +403,314 @@ Log.d("train",mol.getTrainerNAme());
                                     ExampleTrainer exampleTrainer=new ExampleTrainer();
                                     exampleTrainer.setTrainerId(cattrainerid);
                                     exampleTrainer.setTrainerName(cattrainername);
-                                    exampleTrainers.add(exampleTrainer);
+                                  //  exampleTrainers.add(exampleTrainer);
 
                                   *//*  CategoryModel categoryModel = new CategoryModel(catname, CourseName,CourseId,cattrainerid,cattrainername);
                                     //  add(categoryModel);
                                     beanList.add(categoryModel);*//*
-                                }*/
-                              /*  exampleCourseList.setExampleTrainers(exampleTrainers);
-                                exampleCourseLists.add(exampleCourseList);*/
+                                }
+                                exampleCourseList.setExampleTrainers(exampleTrainers);
+                                exampleCourseLists.add(exampleCourseList);
+
+
+                            }
+                            testCategoryModel.setExampleCourseLists(exampleCourseLists);
+
+
+                               testCategoryModels.add(testCategoryModel);
+
+
+                           *//* if (MyCourseFragment.this.testCategoryModels.size() == 0) {
+                                MyCourseFragment.this.progress.setVisibility(View.GONE);
+                                MyCourseFragment.this.allCourseList.setVisibility(View.VISIBLE);
+                                return;
+                            }
+                            MyCourseFragment.this.progress.setVisibility(View.VISIBLE);
+                            MyCourseFragment.this.allCourseList.setVisibility(View.GONE);*//*
+                            recyclerView(MyCourseFragment.this.allCourseList);
+
+
+                           *//* adapter = new TestFragment(beanList, getContext());
+
+                            recyclerView.setAdapter(adapter);
+                            adapter.notifyDataSetChanged();*//*
+                        }*/
+
+
+                    } else {
+                        String error = jsonObject.getString("error");
+                        Toast.makeText(getActivity(), error, Toast.LENGTH_SHORT).show();
+                    }
+
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        }) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> params = new HashMap<>();
+                params.put("device_token", dtoken);
+                params.put("device_id", device_id);
+                params.put("device_type", "android");
+                params.put("cust_id", cust_id);
+
+                params.put("os_version", String.valueOf(os_version));
+                params.put("operating_system", operationg_system);
+                params.put("resolution", resolution);
+                params.put("screen_detail", screen_details);
+                params.put("time_zone", time_zone);
+                params.put("app_version", app_verson);
+                params.put("model_type", model_type);
+                params.put("manufacture_type", manufacture_mode);
+                params.put("manufacture_model", model_type);
+                params.put("public_ip", ip_address);
+                params.put("login_token", login_token);
+                return params;
+
+            }
+
+        };
+        MyApplication.getInstance().addToRequestQueue(request);
+    }
+
+
+    @Override
+    public void itemClicked(String str, String str2, String str3, View view, int i, int i2) {
+        Toast.makeText(getContext(), "hello", Toast.LENGTH_SHORT).show();
+/*
+        if (i2 == 1) {
+            str3 = "my";
+        } else if (i2 == 0) {
+            str3 = "demo";
+        }*/
+        Intent in= new Intent(getActivity(), HomePage.class);
+        startActivity(in);
+       /* i.putExtra(Trunks.COURSE_NAME, str4);
+        i.putExtra("chapter_name", 1);
+        i.putExtra(PayUmoneyConstants.WALLET_HISTORY_PARAM_LIMIT, 1);
+        i.putExtra(Trunks.FROM, str3);
+        i.putExtra(Trunks.COURSE_ID, str2);
+        i.putExtra("des", str5);
+        i.putExtra("cha_count", str);*/
+       // startActivity(i);
+        getActivity().finish();
+
+    }
+    /*@Override
+    public void onViewRecycled(@NonNull RecyclerView.ViewHolder viewHolder) {
+
+    }*/
+
+    private void democourse() {
+        SharedPreferences sp = getActivity().getSharedPreferences(Trunks.SHP_NAME, MODE_PRIVATE);
+        final SharedPreferences.Editor editor = sp.edit();
+
+        device_id = sp.getString("device_id", null);
+        os = sp.getString("operationg_system", null);
+        // guest = sp.getString("guest_id", null);
+        dtoken = sp.getString("device_toke", null);
+        os_version = sp.getString("os_version", null);
+        operationg_system = sp.getString("operationg_system", null);
+        resolution = sp.getString("resolution", null);
+        screen_details = sp.getString("screen_details", null);
+        time_zone = sp.getString("time_zone", null);
+        app_verson = sp.getString("app_verson", null);
+        model_type = sp.getString("model_type", null);
+        manufacture_mode = sp.getString("manufacture_mode", null);
+        ip_address = sp.getString("ip_address", null);
+        login_token = sp.getString("login_token", null);
+        cust_id = sp.getString("cust_id", null);
+        // course_id = sp.getString("course_id", null);
+/*
+        final ProgressDialog dialog = new ProgressDialog(v.getContext());
+        dialog.setTitle("Loading");
+        dialog.setMessage("Getting My Courses..");
+        dialog.setCancelable(false);
+        dialog.show();*/
+        final String MyCourseUrl = "http://lms.sprintzeal.com/lms_new/api/v1/CustmrHomeScr";
+        final StringRequest request = new StringRequest(Request.Method.POST, MyCourseUrl, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String response) {
+
+
+                Log.d("responsedata", response);
+
+                try {
+
+
+                    JSONObject jsonObject = new JSONObject(response);
+
+                    if (jsonObject.getBoolean("success") == true) {
+
+
+                        JSONObject res = jsonObject.getJSONObject("response_data");
+                        String device_token = res.getString("device_token");
+                        String cust_id = res.getString("cust_id");
+                        String login_token = res.getString("login_token");
+                        String message = res.getString("message");
+                        String screen_view = res.getString("screen_view");
+                        String count = res.getString("cust_type");
+                        Log.d("datacount", count);
+
+                        JSONArray cat_course = (JSONArray) res.get("category_courses");
+
+
+                        JSONArray my_cat_course = (JSONArray) res.get("my_category_courses");
+
+                   /*     for (int j = 0; j < my_cat_course.length(); j++) {
+                            JSONObject json_message_my_cat = my_cat_course.getJSONObject(j);
+                            String mycatname = json_message_my_cat.getString("catName");
+                            String mycatid = json_message_my_cat.getString("catId");
+                            Log.d("mycat", mycatname);
+                            Log.d("mycatid", mycatid);
+
+                            TestCategoryModel testCategoryModel=new TestCategoryModel();
+                            testCategoryModel.setCatId(mycatid);
+                            testCategoryModel.setCatName(mycatname);
+
+                            JSONArray mycourse = (JSONArray) json_message_my_cat.get("courseList");
+                            for (int k = 0; k < mycourse.length(); k++) {
+                                JSONObject json_message_my = mycourse.getJSONObject(k);
+
+                                ExampleCourseList exampleCourseList=new ExampleCourseList();
+
+                                String my_CourseId = json_message_my.getString("courseId");
+                                String my_CourseName = json_message_my.getString("courseName");
+                                String my_CourseImg = json_message_my.getString("courseImgUrl");
+
+                                exampleCourseList.setCourseId(my_CourseId);
+                                exampleCourseList.setCourseName(my_CourseName);
+                                exampleCourseList.setCourseImgUrl(my_CourseImg);
+                                MyCourseFragment.this.exampleCourseLists.add(exampleCourseList);
+                                testCategoryModel.setExampleCourseLists(exampleCourseLists);
+
+
+
+                                Log.d("my_CourseName", my_CourseName);
+                                Log.d("my_CourseId", my_CourseId);
+
+                                JSONArray mytrainer = (JSONArray) json_message_my.get("courseTrainerz");
+                                Log.d("trainer", String.valueOf(mytrainer));
+                                for (int t= 0; t < mytrainer.length(); t++){
+                                    JSONObject json_message_mytrainer = mytrainer.getJSONObject(t);
+
+                                    String trainerid=json_message_mytrainer.getString("trainerId");
+                                    String trainername=json_message_mytrainer.getString("trainerName");
+
+                                    ExampleTrainer exampleTrainer=new ExampleTrainer();
+                                    exampleTrainer.setTrainerId(trainerid);
+                                    exampleTrainer.setTrainerName(trainername);
+                                    MyCourseFragment.this. exampleTrainers.add(exampleTrainer);
+                                    SharedPreferences sp = getActivity().getSharedPreferences(Trunks.SHP_NAME, MODE_PRIVATE);
+
+                                 *//*   MyListModel myListModel = new MyListModel(mycatname, my_CourseName,my_CourseId,trainerid,trainername);
+                                    mybeanList.add(myListModel);*//*
+                                }
+                              *//*  testCategoryModel.setExampleCourseLists(exampleCourseLists);
+                                testCategoryModels.add(testCategoryModel);
+                                recyclerView(allCourseList);*//*
+
+                                exampleCourseList.setExampleTrainers( MyCourseFragment.this.exampleTrainers);
+                                //data12 MyCourseFragment.this. exampleCourseLists.add(exampleCourseList);
+
+
+
 
 
                             }
 
-                         /*   if (MyCourseFragment.this.testCategoryModels.size() == 0) {
+
+                            testCategoryModel.setExampleCourseLists(exampleCourseLists);
+
+
+                            //data  testCategoryModels.add(testCategoryModel);
+                           *//* testAdapter=new CatTestAdapter(testCategoryModels,getContext());
+
+                            recyclerView1.setAdapter(testAdapter);
+                            testAdapter.notifyDataSetChanged();*//*
+
+
+                         *//*   myadapter = new MyTestFragment(mybeanList, getContext());
+                            recyclerView1.setAdapter(myadapter);
+                            myadapter.notifyDataSetChanged();*//*
+                        }
+
+
+                        recyclerViewMyList( MyCourseFragment.this.exampleCourseLists);
+*/
+
+                        for (int i = 0; i < cat_course.length(); i++) {
+
+                            JSONObject json_message = cat_course.getJSONObject(i);
+
+
+                            String catname = json_message.getString("catName");
+                            String catId = json_message.getString("catId");
+
+                            TestCategoryModel testCategoryModel=new TestCategoryModel();
+                            testCategoryModel.setCatId(catId);
+                            testCategoryModel.setCatName(catname);
+                            JSONArray d = (JSONArray) json_message.get("courseList");
+                            for (int z = 0; z < d.length(); z++) {
+                                ExampleCourseList exampleCourseList=new ExampleCourseList();
+                                JSONObject json_message1 = d.getJSONObject(z);
+                                String CourseId = json_message1.getString("courseId");
+                                String CourseName = json_message1.getString("courseName");
+                                String CourseImg = json_message1.getString("courseImgUrl");
+
+                                exampleCourseList.setCourseId(CourseId);
+                                exampleCourseList.setCourseName(CourseName);
+                                exampleCourseList.setCourseImgUrl(CourseImg);
+                          //data123      MyCourseFragment.this.  exampleCourseLists.add(exampleCourseList);
+
+                                JSONArray category_trainer = (JSONArray) json_message1.get("courseTrainerz");
+
+                                Log.d("cattrainer", String.valueOf(category_trainer));
+                                for (int a= 0; a < category_trainer.length(); a++){
+                                    JSONObject json_message_mytrainer = category_trainer.getJSONObject(a);
+
+                                    String cattrainerid=json_message_mytrainer.getString("trainerId");
+                                    String cattrainername=json_message_mytrainer.getString("trainerName");
+                                    SharedPreferences sp = getActivity().getSharedPreferences(Trunks.SHP_NAME, MODE_PRIVATE);
+
+                                    ExampleTrainer exampleTrainer=new ExampleTrainer();
+                                    exampleTrainer.setTrainerId(cattrainerid);
+                                    exampleTrainer.setTrainerName(cattrainername);
+                                  //  exampleTrainers.add(exampleTrainer);
+
+                                   /* CategoryModel categoryModel = new CategoryModel(catname, CourseName,CourseId,cattrainerid,cattrainername);
+                                    //  add(categoryModel);
+                                    beanList.add(categoryModel);*/
+                                }
+                                exampleCourseList.setExampleTrainers(exampleTrainers);
+                                exampleCourseLists.add(exampleCourseList);
+
+
+                            }
+                            testCategoryModel.setExampleCourseLists(exampleCourseLists);
+
+
+                               testCategoryModels.add(testCategoryModel);
+
+
+                     /*       if (MyCourseFragment.this.testCategoryModels.size() == 0) {
                                 MyCourseFragment.this.progress.setVisibility(View.GONE);
                                 MyCourseFragment.this.allCourseList.setVisibility(View.VISIBLE);
                                 return;
                             }
                             MyCourseFragment.this.progress.setVisibility(View.VISIBLE);
                             MyCourseFragment.this.allCourseList.setVisibility(View.GONE);*/
-                          //  recyclerView(MyCourseFragment.this.allCourseList);
-                        /*    testCategoryModel.setExampleCourseLists(exampleCourseLists);
-                            testCategoryModels.add(testCategoryModel);
-                          */
-                           /* adapter = new TestFragment(beanList, getContext());
+                            recyclerView(MyCourseFragment.this.allCourseList);
+
+/*
+                            adapter = new TestFragment(beanList, getContext());
 
                             recyclerView.setAdapter(adapter);
                             adapter.notifyDataSetChanged();*/
@@ -449,29 +759,6 @@ Log.d("train",mol.getTrainerNAme());
         };
         MyApplication.getInstance().addToRequestQueue(request);
     }
-    private void recyclerViewMyList(List<ExampleCourseList> list) {
-        RecyclerView recyclerView = (RecyclerView) view.findViewById(R.id.myrecyclerdata);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), 0, false));
-        RecyclerView.Adapter courseAdapter = new ExampleCourseAdapter(getActivity(), list, 1);
-        recyclerView.setAdapter(courseAdapter);
-        courseAdapter.notifyDataSetChanged();
-        //courseAdapter.setClickListener(this);
-    }
-    private void recyclerView(RecyclerView recyclerView) {
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
-        this.feedsAdapter = new CategoryAdapter(getContext(), this.testCategoryModels, this);
-        recyclerView.setAdapter(this.feedsAdapter);
-        this.feedsAdapter.notifyDataSetChanged();
-        this.feedsAdapter.setClickListener(this);
-    }
-    @Override
-    public void itemClicked(String str, String str2, String str3, View view, int i, int i2) {
-
-    }
-    /*@Override
-    public void onViewRecycled(@NonNull RecyclerView.ViewHolder viewHolder) {
-
-    }*/
 
     public class GridSpacingItemDecoration extends RecyclerView.ItemDecoration {
 

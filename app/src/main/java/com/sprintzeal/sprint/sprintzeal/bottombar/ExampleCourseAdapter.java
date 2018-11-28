@@ -40,14 +40,15 @@ public class ExampleCourseAdapter extends RecyclerView.Adapter<ExampleCourseAdap
         }
 
         public void onClick(View view) {
-            if (ExampleCourseAdapter.this.clicklistener != null) {
+           /* if (ExampleCourseAdapter.this.clicklistener != null) {
                 int adapterPosition = getAdapterPosition();
-                ExampleCourseAdapter.this.clicklistener.itemClicked(((ExampleCourseList)
-                        ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getCourseId(),
-                        ((ExampleCourseList) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getCourseImgUrl(),
-                        ((ExampleCourseList) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getCourseName(),
+                ExampleCourseAdapter.this.clicklistener.itemClicked(((ExampleCourseAdapter) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getChpCount(),
+                        ((ExampleCourseAdapter) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getCourseID(),
+                        ((ExampleCourseAdapter) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getChpCount(),
+                        ((ExampleCourseAdapter) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getCourseName(),
+                        ((ExampleCourseAdapter) ExampleCourseAdapter.this.courseBeans.get(adapterPosition)).getDes(),
                         view, adapterPosition, ExampleCourseAdapter.this.myList);
-            }
+            }*/
         }
     }
 
@@ -67,7 +68,12 @@ public class ExampleCourseAdapter extends RecyclerView.Adapter<ExampleCourseAdap
 
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
 
+
+          String  count=courseBeans.get(i).getCourseId();
+          Log.d("courseid",count);
+
         viewHolder.name1.setText(courseBeans.get(i).getCourseName());
+//        viewHolder.name2.setText(courseBeans.get(i).getExampleTrainers().get(i).getTrainerName());
       //  viewHolder.name2.setText(courseBeans.get(i).getCourseId());
 
        // Glide.with(this.context).load(((CourseBean) this.courseBeans.get(i)).getImage()).placeholder(this.context.getResources().getDrawable(C0371R.drawable.background)).into(viewHolder.imgCourse);

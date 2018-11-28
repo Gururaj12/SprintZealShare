@@ -83,7 +83,7 @@ public class FullCourseFragment extends Fragment implements AdapterView.OnItemSe
         recyclerView.setItemAnimator(new DefaultItemAnimator());*/
       //  exam.setOnItemSelectedListener(this);
         spinner.setOnItemSelectedListener(this);
-        getrainer();
+      //  getrainer();
         //init();
         return view;
     }

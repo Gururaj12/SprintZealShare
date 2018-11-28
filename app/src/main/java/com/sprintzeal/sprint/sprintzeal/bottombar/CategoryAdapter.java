@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.sprintzeal.sprint.sprintzeal.Listeners.RecycleListener;
 import com.sprintzeal.sprint.sprintzeal.R;
-
+import android.view.View.OnClickListener;
 import java.util.List;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder> {
@@ -21,7 +21,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     private RecycleListener clicklistener = null;
     Context context;
     private RecycleListener listener = null;
-    View.OnClickListener onClickListener;
+    OnClickListener onClickListener;
     ExampleCourseAdapter feedsAdapter;
     int size = 8;
 
@@ -38,10 +38,12 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         }
 
         public void onClick(View view) {
-          /*  if (CategoryAdapter.this.clicklistener != null) {
+            if (CategoryAdapter.this.clicklistener != null) {
                 int adapterPosition = getAdapterPosition();
-                CategoryAdapter.this.clicklistener.itemClicked("", String.valueOf(CategoryAdapter.this.categoryCourseBeanList.get(adapterPosition)), "", "", "", view, adapterPosition, 2);
-            }*/
+                CategoryAdapter.this.clicklistener.itemClicked("", String.valueOf(CategoryAdapter.this.categoryCourseBeanList.get(adapterPosition)),"", view, adapterPosition, 2);
+            }
+
+            
         }
     }
 
@@ -60,6 +62,8 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
     }
 
     public void onBindViewHolder(ViewHolder viewHolder, int i) {
+
+
         viewHolder.TXT_Catwegory.setText(((TestCategoryModel) this.categoryCourseBeanList.get(i)).getCatName());
 
 
