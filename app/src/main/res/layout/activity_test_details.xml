@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TestDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/testnumber"
+        android:text="Mock Test 1"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/questiondescp"
+        android:text="150 Questions | 150 Marks | 210 Minutes"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="15sp"
+        android:id="@+id/details"
+        android:text="Details"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/detailsinfo"
+    android:text="@string/detail"
+    android:padding="10dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/instruct"
+        android:textSize="15sp"
+        android:text="Instructions"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/instructioninfo"
+        android:text="@string/instruction"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+       <TextView
+           android:id="@+id/systemcheck"
+           android:textSize="15sp"
+           android:text="System Check"
+           android:padding="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/screensize"
+               android:text="Screen Size"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/javascript"
+               android:text="Javascript"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/httpdata"
+               android:text="Http GET"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/httpost"
+               android:text="Http POST"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/timer"
+               android:text="Timer"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/operatingsystem"
+               android:text="Operating System"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:id="@+id/browsername"
+               android:text="Browser Name"
+               android:padding="10dp"
+               android:layout_marginLeft="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </LinearLayout>
+
+        <Button
+            android:id="@+id/test"
+
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:layout_marginTop="30dp"
+            android:text="take test"
+       android:textColor="#495FCB"
+       android:layout_gravity="center"
+       android:background="@drawable/mybutton"
+       android:layout_marginLeft="20dp"
+       android:layout_marginRight="20dp"
+       />
+   </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/water"
+    android:background="@drawable/background"
     android:layout_height="match_parent">
 
     <android.support.v7.widget.Toolbar
@@ -151,9 +151,7 @@
                 <EditText
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-
-
-
+                    android:drawableLeft="@drawable/ic_mail"
                     android:background="@drawable/edt_bg_selector"
                     android:inputType="textEmailAddress"
                     android:padding="5dp" />

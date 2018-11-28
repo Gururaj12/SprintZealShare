@@ -2,48 +2,78 @@
     <string name="app_name">SprintZeal</string>
     <string name="floatname">SprintZeal\nDeal</string>
     <string name="keyhash">L1O+e7UCSfsbnXK9yMrm04SBfAk=</string>
-   <!-- <string name="facebook_app_id">1060135327480079</string>
+    <!-- <string name="facebook_app_id">1060135327480079</string>
     <string name="fb_login_protocol_scheme">fb1060135327480079</string>-->
 
-   <!-- <string name="facebook_app_id">746525505696842</string>
+    <!-- <string name="facebook_app_id">746525505696842</string>
     <string name="fb_login_protocol_scheme">fb746525505696842</string>-->
 
     <string name="facebook_app_id">184463645786582</string>
     <string name="fb_login_protocol_scheme">fb184463645786582</string>
 
+    <string name="podcast">videos,podcast,terms and concept,study Guides for\nExcel,Proctored Excel Online Training</string>
 
 
     <string name="at">copyright SprintZeal</string>
-    <string name="information">Unlimited Access to\nEntrepreneurial and Career\nDevelopment Courses for Only\n $9.99 per Month</string>
-    <string name="offertype">Join FREE for 3 Days\nThen Only $9.99/Month</string>
+    <string name="information">Unlimited Access to\nEntrepreneurial and Career\nDevelopment Courses for Only\n $5  per Month</string>
+    <string name="offertype">Join FREE for 10 Days\nThen only US$5/Month </string>
     <string name="login">Log In</string>
     <string name="memberlogin">Log In to SprintZeal</string>
     <string name="forgotpasword">Forgot Password?</string>
     <string name="forgotpaswordtext">Reset Password</string>
     <string name="forgotpaswordtextinfornation">RETRIEVE MY INFORMATION</string>
-    <string name="note">Unlimited Streaming in Sd at Rs 500 a month after change free trail\nBy checking the checkbox below,you agree to our
-    Terms of Use ,Privacy Statement,and that you are 18.You may cancel at any time in your free trial and will not be charged.</string>
+    <string name="note">Unlimited Streaming in SD at US $5 a month after free trial.By checking the checkbox below, you agree to our Terms of Use, Privacy Policy, and that you are over 18. You may cancel at any time in your free trial and will not be charged. Sprintzeal will automatically continue your membership at the end of your free trial and charge the membership fee (currently US$5) to your payment method on a monthly basis until you cancel.</string>
+
+
+    //lvc details
+
+    <string name="lvcheader">PMP® EXAM PREP BOOT CAMP</string>
+    <string name="lvcdescp">Description</string>
+    <string name="lvcdescp3">10 Days Money back Guarantee: Full money back guarantee if not satisfied with the quality of the training.
+
+
+
+PMP Facilitator Support: Write to us with your queries and get it answered by Our Course SME’s.
+
+
+
+Practice Test Papers: Get 1000+ practice questions to prepare for your PMP® examination.
+
+
+
+PMI-PMP® 35 contact hour certificate/ PDU Certificate: On completion, you will receive 35 Contact hours Certificate / PDU Certificate to apply for your PMI-PMP® examination globally.
+
+
+
+Post Program Support: Get expert advice on PMP exam application and PMP audit procedure.</string>
+    <string name="lvcdescp2">Self-Paced Online Training: Our versatile PMP® online training is designed to meet the requirement of self-learning candidate. The content is self-explanatory with quiz at end of each session. PMP® online training covers the complete PMBOK® Sixth Edition syllabus from PMI® – Project Management Institute.</string>
+    <string name="lvcdescp1">PMP® (Project Management Professional) is the most popular and globally accepted certification on Project Management by the PMI®, USA (Project Management Institute). PMP® is one of the hottest trending certification an organization seeks in their Project Managers. PMP® demonstrates your capability on handling and leading Projects</string>
+    <string name="lvcsub1"> (687 reviews)</string>
+    <string name="lvcsub2">5307  Students Enrolled</string>
+    <string name="lvccon1">PMP® Exam Prep Boot camp\nHigh Quality Online Self Learning Audio-Videos, complete PMP® Training using PMBOK® Guide - Sixth Edition Live Class to learn and preapre for your exam\nLearn anytime through our L.M.S Learning Management System login access.\nGet 35 Contact Hour Certificate after completing the training. PMI - REP ID - 4719\nTrusted by Millions across the Globe High quality E-Learning content with strategy to clear the PMP® Certification exam at first attempt.\nGet 1000+ Practice Test Questions to test your knowledge before scheduling the actual exam. Get Soft copy student study guide for your offline learning.\n10 days Money Back Guarantee, buy without worries. Ask for full refund if you are not satisfied.\nGet instant login credentials to access the content anywhere, anytime. Dedicated customer support available.\nDon’t Pay More..!! When we are ready to give you for lesser price. Talk to us, if you see someone else have better pricings than us.</string>
 
 
     <string name="step1">STEP 1 OF 3</string>
-    <string name="signuptostart">Sign up to start your free 3 day trial</string>
+    <string name="signuptostart">Sign up to start your free 10 day trial</string>
     <string name="twomorestep">Just two more steps and you are done\nWe hate filling out forms too.</string>
     <string name="createaccount">Create your account..</string>
     <string name="con">Continue</string>
 
     <string name="step2">STEP 2 OF 3</string>
-    <string name="step2plan">Unlimited Access to Entrepreneurial and Career Development Courses for Only $9.99 per Month. Register in app and enjoy your learning for unlimited training program. We wont charge you for first 3 days until the trial ends.</string>
-    <string name="canceltext">If you decide the courses in Knowledge Society arent for you no problem. You can easily cancel at anytime.</string>
+    <string name="step2plan">Unlimited Access to Entrepreneurial and Career Development Courses for Only $5 per Month. Register in app and enjoy your learning for unlimited training program. We wont charge you for first 10 days until the trial ends.</string>
+    <string name="canceltext">(No Commitments Cancel Online at Any time)\n\n
+
+If you decide the courses in “Sprintzeal APP” arent for you - no problem. You can easily cancel at any time.\n\n
+
+Join FREE for 10 Days Then Only US$5/Month
+</string>
     <string name="canceltext1">Life is Too Short To Waste Time and Money Learning Things You ll Never Use</string>
     <string name="canceltext2">Choosing a career shouldnt cost you a fortune. The problem with college today is that it does. Too many people are spending tens of thousands of dollars on degrees that have little value in the modern world.
 
-This is why there iss now more than $1.48 trillion in student loan debt. Too much money is wasted. But it is not just about the money. Time - something you ll never get back - is also lost. College forces you to attend for multiple semesters, take classes you dont care about, and waste a few years before graduating.
-
+This is why there is now more than $1.48 trillion (Approx.) in student loan debt worldwide. Too much money is wasted. But it is not just about the money. Time - something you will never get back - is also lost. College forces you to attend for multiple semesters, take classes you dont care about, and waste a few years before graduating.
 Yet graduation is only the beginning. Having a degree does not guarantee you will get a job. Most people end up spending a few more years working entry-level positions to add job experience to their resume.
-
 Is there a better way? Absolutely. And it won't cost you tens of thousands of dollars, put you in debt, or make you wait years before seeing tangible results.
-
-Introducing Knowledge Society: a way for you to get:</string>
+</string>
     <string name="canceltext3">Unlimited Access To Practical Career Courses!</string>
     <string name="canceltext4">Choosing a career and improving your life just got easier. Knowledge Society teaches you practical life lessons from recognized experts who have real-world experience and success doing what they show you.
         The worlds changing too fast for colleges to keep up. This is why Knowledge Society members get multiple new courses every month. Some of the things you ll learn about include:
@@ -51,7 +81,7 @@ Introducing Knowledge Society: a way for you to get:</string>
     <string name="canceltext5">Start A Social Media Marketing Agency\nMake Money Growing Instagram Followings\nGet Paid Being A Copywriter\nBecome A Personal Trainer\nLearn How To Flip Real Estate Contracts\nHow To Sell T-shirts On Facebook\nHow To Start A Profitable Hair Salon\nHow To Sell Digital Products As An Affiliate\nMake More Money As An Uber Driver\nBook Publishing Secrets\nSet Up An Autobody Shop\nHow To Set Up A Food Truck Business\nHow To Start A Mobile Car Wash Business\nSecrets Of Running A Six-Figure Airbnb Business\nHow To Make Money Teaching Languages Online\nHow To Make Money Being A Gamer\nHow To Create A Money Making App\nHow to Start an Electronics Repair Business\nHow To Set Up An IT Support Business\nAnd many more
 </string>
     <string name="canceltext6">Learn From Anywhere, On Your Own Schedule</string>
-    <string name="canceltext7">It doesnt matter if you only have 15 minutes spare time on the bus to work. Or an hour before bed. You can log in and learn as long as you are connected to the internet. All your progress through the courses is saved, so you can pick up exactly where you left off.Each course is about an hour long and holds nothing back. You will learn things that you can use immediately after taking the course. Since there are multiple courses to learn from, you can watch as many as you want - as many times as you like - before deciding which you want to implement.What if you're already employed? No problem. You can still earn a certification to showcase your new skills and potentially earn a raise.</string>
+    <string name="canceltext7">It doesnt matter if you only have 15 minutes spare time on the bus to work. Or an hour before bed. You can log in and learn as long as you are connected to the internet. All your progress through the courses is saved, so you can pick up exactly where you left off.Each course is about an hour long and holds nothing back. You will learn things that you can use immediately after taking the course. Since there are multiple courses to learn from, you can watch as many as you want - as many times as you like - before deciding which you want to implement.What if you are already employed? No problem. You can still earn a certification to showcase your new skills and potentially earn a raise.</string>
     <string name="canceltext8">The Evolution of Education</string>
     <string name="canceltext9">The internet has changed education forever. We communicate and learn at a pace faster than any other time in history. While the rest of the world relies on a traditional education only, you can pursue a self education that gets you ahead.Until now, theres never been a convenient place to learn everything they should have taught you in school.Knowledge Society is that place. Start now and you will gain instant access to an online library of multiple career courses thats constantly updated over time. Click the button below to begin your first course!</string>
     <string name="canceltext10">Still Have Questions?</string>
@@ -62,20 +92,25 @@ Introducing Knowledge Society: a way for you to get:</string>
     <string name="canceltext15">Not at all. It is more like a supplement. Because the lessons require less time and money than a semester of school, you can learn while attending college. We had many high school and college students use our courses to start businesses that makes more than what their parents earn</string>
     <string name="canceltext16">Who is teaching Knowledge Society courses?.</string>
     <string name="canceltext17">You can expect to learn from teachers who have experience in what they talk about. Some of the results our teachers have accomplished include: starting a multimillion dollar t-shirt business, closing 5-, 6- and even 7-figure real estate deals, and investing over 9 figures in paid advertising.</string>
-    <string name="devicetext1">Learn from the comfort of your home or on the go, whenever you want - the choice is yours.</string>
+    <string name="devicetext1">Learn from the comfort of your home or on the go, whenever you want - the choice is yours.\n\n
+    	Log into your private account\n
+    	Watch via any Android Device with internet access.\n
+    	Learn on your own schedule\n
+    	Start or stop the videos anytime. Pause and pick up where you left off easily.\n
+    	Use any computer\n
+    	Watch right on lms.sprintzeal.com\n
+</string>
     <string name="devicetext2">Log into your private account\nWatch via any device with internet access.</string>
     <string name="devicetext3">Learn on your own schedule\nStart or stop the videos anytime. Pause and pick up where you left off easily.</string>
     <string name="devicetext4">Use any computer\nWatch right on Knowledgesociety.com.</string>
-    <string name="devicetext5">* Results are not typical. Any experiences shown are not a guarantee you will make money. You may make more, less or the same.</string>
+    <string name="devicetext5">**Results are not typical. Any experiences shown are not a guarantee you will make money and definite in growing career. You may make more, less or the same, you may get salary hike or less or the same. You may pass the exam for your preparation. Not all courses listed in APP or on our website will fetch you PDUs certificate.</string>
 
-    <string name="pricetext">Get access to specialized video training that teaches practical skills for
-improving your career and life, every month. Weekly content updates from
-multiple world's best experts.</string>
+    <string name="pricetext">Get access to specialized video training that teaches practical skills for improving your career and life, every month. Weekly content updates from multiple worlds best industry experts..</string>
     <string name="priceduration">Benefits - </string>
     <string name="pricewatch">Watch on your laptop, TV, phone and tablet</string>
     <string name="priceaccess">Unlimited access</string>
     <string name="pricecancel">Cancel at any time</string>
-    <string name="pricevideos">Exclusive tips and secrets </string>
+    <string name="pricevideos">Exclusive videos with tips and tricks from every instructor </string>
 
     <string name="title_shop">Home</string>
     <string name="title_gifts">Search</string>
@@ -100,8 +135,18 @@ multiple world's best experts.</string>
     <string name="hint_number">Contact Number</string>
     <string name="search">Search for Courses like Quality management\nCloud Computing\n \nProject Management\nDigital Marketing\nMarketing Research\nBig Data\nPMP\nSix Sigma\nAgile Management\nScrum and Agile \nIT Security\nIT Service Management\nMore...</string>
 
-
+    <string name="cancel">Cancel</string>
+    <string name="device">Device</string>
+    <string name="price">Price</string>
     <string name="lms">1)	What is LMS??</string>
+    <string name="instruction">This is a multiple choice test\n
+Click the Start Now button to start the Test.\n
+After Start Test dont press Refresh or Back button, else your test will be Automatically submitted. \n
+A question and the possible answer choices will appear. Select the choice you find to be the correct answer of the question. Clicking on a choice saves it as your answer for that question.\n
+Use Next and Back buttons to move on to the next or previous question in the test.\n
+There is no negative marking for wrong choices selected.\n
+After you finish the test, you will be redirect to the screen to view your Test Report, CLick on Review button and see your scorecard.\n
+You can review your answer also.</string>
     <string name="lmsans">A learning management system(LMS) is a software application fot the administration documentation and delivery of educational courses or training</string>
     <string name="lms2">2)	How LMS is useful?</string>
     <string name="lms3">3)	Why should one use LMS?</string>
@@ -111,7 +156,7 @@ multiple world's best experts.</string>
     <string name="lms7">7)	Is there a time limit for activity in LMS system?</string>
     <string name="lms8">8)	How do I extend the time limit of my study course?</string>
     <string name="lms9">9)	What should I do if am unable to login LMS?</string>
-    <string name="lms10">10)	Are there any free videos in the LMS?</string>
+    <string name="lms10">10) Are there any free videos in the LMS?</string>
     <string name="lms11">11)	How can I get LMS help?</string>
     <string name="lms12">12)	How do I register to other courses?</string>
     <string name="lms13">13)	Is there any affiliate/partner on registering for LMS?</string>
@@ -134,6 +179,17 @@ multiple world's best experts.</string>
     <string name="lmsans14">Yes, for more details contact support@sprintzeal.com</string>
     <string name="lmsans15">Once completing of the course, registration link will be displayed to apply for online examination.</string>
     <string name="lmsans16">It depends on the course and the certifying body of the respective course. If they provide hard copy of the certificate, we will dispatch the same to you and if it is soft copy, you will receive the same via email. The course completion certificate from Sprintzeal will be a soft copy.</string>
-
-
+    <string name="detail">1.Introduction to Business Analysis\n2. Business Analysis Planning and Monitoring\n3. Elicitation\n4. Requirements Management and Communication\n5. Enterprise Analysis\n6. Requirements Analysis\n7. Solution Assessment and Validation\n8. Underlying Competencies\n9. Techniques.</string>
+    <string name="sharinginfo">We partner with another party to provide specific services. When the user signs up for these services, we will share names, or other contact information that is necessary for the third party to provide these services. These parties are not allowed to use personally identifiable information except for the purpose of providing these services.</string>
+    <string name="alert">Once you click submit you will not be abile to change your answers</string>
+    <string name="privacy">Through this website (Website) to use, you agree to the provisions of the following privacy policy (Privacy Policy). The Privacy Policy constitutes the agreement between you and Sprintzeal.(we, our or,us) is committed to ensuring that your privacy is protected. This privacy policy discloses the privacy practices for (www.sprintzeal.com). This privacy policy applies solely to information collected by this web site. It will notify you of the following:\nWhat personally identifiable information is collected from you through the web site, how it is used and with whom it may be shared.\nWhat choices are available to you regarding the use of your data.\nThe security procedures in place to protect the misuse of your information\nHow you can correct any inaccuracies in the information</string>
+    <string name="privacyinformationcollection">We Sprintzeal are the sole owners of the information collected on this site. We only have access to/collect information that you voluntarily give us via email or other direct contact from you. We will not sell or rent this information to anyone.\nWe will use your information to respond to you, regarding the reason you contacted us. We will not share your information with any third party outside of our organization, other than as necessary to fulfill your request, e.g. to the certification bodies for issuing the certificate.\nUnless you ask us not to, we may contact you via email in the future to tell you about specials, new products or services, or changes to this privacy policy.\nYou may opt out of any future contacts from us at any time. You can do the following at any time by contacting us via the email address or phone number given on our website: Change/correct any data we have about you. \nHave us delete any data we have about you. Express any concern you have about our use of your data. See what data we have about you, if any</string>
+    <string name="security">Security\n\nYour Access to and Control Over Information</string>
+    <string name="cookiesinfo">We use cookies on this site. A cookie is a piece of data stored on a site visitors hard drive to help us improve your access to our site and identify repeat visitors to our site. For instance, when we use a cookie to identify you, you would not have to log in a password more than once, thereby saving time while on our site. Cookies can also enable us to track and target the interests of our users to enhance the experience on our site. Usage of a cookie is in no way linked to any personally identifiable information on our site.\nSome of our business partners may use cookies on our site However, we have no access to or control over these cookies.</string>
+    <string name="orderinfo">We request information from you on our order form. To buy from us, you must provide contact information (like name and shipping address) and financial information (like credit card number, expiration date). This information is used for billing purposes and to fill your orders. If we have trouble processing an order, we will use this information to contact you.</string>
+    <string name="sitesecurity">This web site contains links to other sites. Please be aware that we are not responsible for the content or privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of any other site that collects personally identifiable information. Sprintzeal reserves the right to change these Terms of Use and / or this Privacy Policy from time to adapt, all updates will be posted on this page.</string>
+    <string name="order">If you take and fill orders on your site, insert a paragraph like this in your privacy policy: Enrolling for the Training:</string>
+    <string name="privacysecinfo">We take precautions to protect your information. When you submit sensitive information via the website, your information is protected both online and offline.\nWherever we collect sensitive information (such as credit card data), that information is encrypted and transmitted to us in a secure way. You can verify this by looking for a closed lock icon at the bottom of your web browser, or looking for https at the beginning of the address of the web page.\nWhile we use encryption to protect sensitive information transmitted online, we also protect your information offline. Only employees who need the information to perform a specific job (for example, billing or customer service) are granted access to personally identifiable information. The computers/servers in which we store personally identifiable information are kept in a secure environment. </string>
+    <string name="registrationinfo">In order to book any service from this website, a user must first complete the registration form. During registration a user is required to give certain information (such as name and email address). This information is used to contact you about the products/services on our site in which you have expressed interest. At your option, you may also provide demographic information (such as gender or age) about yourself, but it is not required.</string>
+    <string name="aboutus">Sprintzeal Americas Inc. is an extended solutions partner to organizations seeking consulting or training services to enhance workforce performance and drive business success.\nOur courseware in the fields of Sales, Operations, Marketing, Management and consulting is aimed at delivering measurable improvements in business performances and productivity. Professionals who have completed our training are equipped with state-of-the-art knowledge and technical skills that enable them to stay at the forefront of their careers.\nIn today’s dynamic world of workplace education, learning policies within organisations are evolving at rapid speed in response to emerging technologies. Traditional, formal and scheduled training methods have given way to more informal and on-demand forms of learning, with an increasing accent on blended and e-learning delivery modes. At Sprintzeal, we help you with the capabilities to rapidly respond to these new demands for flexibility in learning processes.\nContinuous training and collaboration helps organizations stay at the cutting-edge of change. Since its inception in 2011, Sprintzeal has proven itself as a leading corporate training and consulting service provider, delivering high value in innovative, practical approaches to learning. Sprintzeal offers a wide range of services in training, learning and development in the fields of technology and management. The founders of the company are zealous young entrepreneurs, who were motivated by the need to fill a niche in the IT Training industry for professionals.\nTo stay abreast with the ever changing technologies in this industry, and also to help continued professional development among aspiring IT managers and executives, Sprintzeal offers a variety of accredited training programs.</string>
 </resources>

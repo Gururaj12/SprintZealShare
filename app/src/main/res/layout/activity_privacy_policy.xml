@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PrivacyPolicy">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/newlogo"/>
+
+        <TextView
+
+            android:id="@+id/privacypolicy"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:text="PRIVACY POLICY"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/privacyinfo"
+            android:text="@string/privacy"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/informationcollection"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="Information Collection, Use, and Sharing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/inormation"
+
+            android:text="@string/privacyinformationcollection"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/securitydata"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="@string/security"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/privacysectioinfo"
+
+            android:text="@string/privacysecinfo"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/pregister"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="Registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/preginfo"
+
+            android:text="@string/registrationinfo"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/porder"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="@string/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/porderdata"
+
+            android:text="@string/orderinfo"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/pcookies"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="Cookies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+android:id="@+id/pcookiesdata"
+            android:text="@string/cookiesinfo"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+        <TextView
+            android:id="@+id/psharing"
+        android:padding="10sp"
+        android:layout_marginLeft="20sp"
+        android:text="Sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/psharinginfo"
+
+            android:text="@string/sharinginfo"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:id="@+id/psite"
+            android:padding="10sp"
+            android:layout_marginLeft="20sp"
+            android:text="If your site has links to other sites, you might insert a paragraph like this in your privacy policy:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/psiteinfo"
+
+            android:text="@string/sitesecurity"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:lineSpacingExtra="8sp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    </ScrollView>
+    </LinearLayout>

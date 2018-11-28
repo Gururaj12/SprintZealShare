@@ -6,412 +6,256 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
-    <TextView
-        android:id="@+id/textdescp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/pricetext"
-        android:textSize="20dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <Button
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/colorButton"
-        android:layout_gravity="center"
-        android:background="@drawable/mybutton"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/offertype"
-        android:onClick="buttonlogin"/>
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/priceduration"
-        android:textSize="15dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/pricewatch"
-        android:textSize="15dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/priceaccess"
-        android:textSize="15dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/pricecancel"
-        android:textSize="15dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/pricevideos"
-        android:textSize="15dp"
-
-        android:layout_marginTop="30dp"
-
-        />
-    <TableRow
-        android:layout_marginLeft="5dp"
-        android:layout_marginRight="5dp"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:background="#b3b5b7"></TableRow>
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/textdescp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/pricetext"
+                android:textSize="20dp"
 
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext1"
-        android:textSize="20dp"
+                />
+            <Button
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/colorButton"
+                android:layout_gravity="center"
+                android:background="@drawable/mybutton"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/offertype"
+                android:onClick="buttonlogin"/>
+            <TextView
 
-        />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/priceduration"
+                android:textSize="15dp"
 
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext2"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/pricewatch"
+                android:textSize="15dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext3"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/priceaccess"
+                android:textSize="15dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext4"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/pricecancel"
+                android:textSize="15dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext5"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/pricevideos"
+                android:textSize="15dp"
 
-        />
-    <Button
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/colorButton"
-        android:layout_gravity="center"
-        android:background="@drawable/mybutton"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/offertype"
-        android:onClick="buttonlogin"/>
+                />
+            <TableRow
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="#b3b5b7"></TableRow>
 
-    <TextView
+            <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext6"
-        android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/canceltext1"
+                android:textSize="20dp"
 
-        android:layout_marginTop="30dp"
+                android:layout_marginTop="30dp"
 
-        />
-    <TextView
+                />
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext7"
-        android:textSize="20dp"
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="@string/canceltext2"
+                android:textSize="20dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext8"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Introducing Sprintzeal Online Courses: A way for you to get:"
+                android:textSize="20dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext9"
-        android:textSize="20dp"
+                />
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Choosing a career and improving your life just got easier. Sprintzeal teaches you practical life lessons and expert proven techniques from various international study Guides from recognized governing bodies who have spent years in researching and developing Best Practices at work and real-world experience and success doing what they show you, for some of our online courses will prepare you to take the actual EXAM and pass to get certified directly from the governing bodies or through us.
+The world's changing too fast for colleges to keep up. This is why Sprintzeal members get multiple new courses every month. Some of the things you'll learn about include:
+"
+                android:textSize="20dp"
 
-        />
-    <Button
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/colorButton"
-        android:layout_gravity="center"
-        android:background="@drawable/mybutton"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/offertype"
-        android:onClick="buttonlogin"/>
-    <TextView
+                />
+            <TextView
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext10"
-        android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="Our Course Library:"
+                android:textSize="20dp"
 
-        android:layout_marginTop="30dp"
+                android:layout_marginTop="30dp"
 
-        />
-    <TextView
+                />
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext11"
-        android:textSize="20dp"
+            <TextView
 
-        android:layout_marginTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-        />
-    <TextView
+                android:layout_marginLeft="10dp"
+                android:textColor="#ffffff"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="PMP® - Project Management Professional
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext12"
-        android:textSize="20dp"
+CAPM® - Certified Associate in Project Management
+ITIL® Foundation - Information Technology Infrastructure Library
+Big Data Hadoop Analyst
 
-        android:layout_marginTop="30dp"
+Big Data Hadoop Spark and Developer
 
-        />
-    <TextView
+PMI – ACP® - Agile Certified Practitioner
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext13"
-        android:textSize="20dp"
+ITIL® - Service Operation
 
-        android:layout_marginTop="30dp"
+ITIL® - Service Transition
 
-        />
-    <TextView
+CBAP – Certified Business Analysis Professional
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext14"
-        android:textSize="20dp"
+DevOps Foundation
 
-        android:layout_marginTop="30dp"
+CISSP® - Certified Information Systems Security Professional
 
-        />
-    <TextView
+Microsoft Excel 2010 Basic
+Java Script
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext15"
-        android:textSize="20dp"
+Six Sigma Green Belt
+Six Sigma Black Belt
 
-        android:layout_marginTop="30dp"
+Lean Six Sigma Green Belt
+Lean Six Sigma Black Belt
+Digital Marketing
+Coming Soon…..
 
-        />
-    <TextView
+AI – Artificial Intelligence
+Data Science with R Programming
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext16"
-        android:textSize="20dp"
 
-        android:layout_marginTop="30dp"
+"
+                android:textSize="20dp"
 
-        />
-    <TextView
+                android:layout_marginTop="30dp"
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="10dp"
-        android:textColor="#ffffff"
-        android:layout_marginRight="10dp"
-        android:gravity="center"
-        android:text="@string/canceltext17"
-        android:textSize="20dp"
+                />
 
-        android:layout_marginTop="30dp"
+        </LinearLayout>
+    </ScrollView>
 
-        />
-    <Button
 
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/colorButton"
-        android:layout_gravity="center"
-        android:background="@drawable/mybutton"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:text="@string/offertype"
-        android:onClick="buttonlogin"/>
 </LinearLayout>

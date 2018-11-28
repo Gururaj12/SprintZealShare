@@ -20,7 +20,49 @@
             android:padding="10dp"
             android:layout_alignParentLeft="true"
             android:background="@color/colorWhite" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
 
+            android:src="@drawable/newlogo"/>
+        <TextView
+            android:id="@+id/plan"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Plan"
+            android:layout_marginTop="25dp"
+            android:padding="5dp"
+            android:gravity="center"
+
+            android:layout_marginLeft="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/limitedplan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:text="@string/note"
+
+            />
+
+        <LinearLayout
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox
+                android:id="@+id/paymentcheck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="read and accept Terms and Conditions"/>
+        </LinearLayout>
 
     <TextView
         android:id="@+id/step3"
@@ -41,13 +83,71 @@
         android:text="Set Up Your credit or debit card"
         android:padding="5dp"
         android:layout_marginTop="10dp"
-
-
         android:gravity="center"
         android:layout_gravity="center"
 
 
         />
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="First Name  (Name as per your Card)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:background="@drawable/edt_bg_selector"
+                android:inputType="textEmailAddress"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/lastname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Last Name"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+
+
+
+                android:background="@drawable/edt_bg_selector"
+                android:inputType="textEmailAddress"
+                android:padding="5dp" />
+        </LinearLayout>
 
 
 
@@ -96,15 +196,11 @@
             android:id="@+id/paymentsecuritycode"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
             android:text="Security code"/>
 
         <EditText
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
-
-
             android:background="@drawable/edt_bg_selector"
             android:inputType="textEmailAddress"
             android:padding="5dp" />
@@ -159,7 +255,6 @@
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
             android:gravity="center"
-
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
@@ -188,44 +283,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/plan"
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Your Plan"
-            android:layout_marginTop="25dp"
-            android:padding="5dp"
-            android:gravity="center"
-
-            android:layout_marginLeft="20dp"
-
-            />
-
-        <TextView
-            android:id="@+id/limitedplan"
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_marginTop="25dp"
-            android:gravity="center"
-            android:layout_gravity="center"
-            android:padding="5dp"
-            android:text="@string/note"
-
-            />
-
-        <LinearLayout
-            android:padding="20dp"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <CheckBox
-                android:id="@+id/paymentcheck"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="read and accept Terms and Conditions"/>
-        </LinearLayout>
         <Button
             android:id="@+id/btnContinue"
             android:layout_width="wrap_content"

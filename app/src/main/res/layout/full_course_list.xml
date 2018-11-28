@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#e9e6e6"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <VideoView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="220dp"
+        android:id="@+id/vv"/>
+            <View
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#c3c0c0"/>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight=".28"
+                    android:background="@drawable/spinner_border"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/chapter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_drop_down" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight=".28"
+                    android:background="@drawable/spinner_border"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/exam"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_drop_down" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/guide"
+                android:gravity="center"
+                android:background="@android:color/transparent"
+                android:layout_gravity="end"
+                android:text="Download Study Guide   "
+                android:drawableRight="@drawable/ic_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/box"/>
+            </ScrollView>
+
+       <!--  <android.support.v7.widget.RecyclerView
+             android:id="@+id/rec"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+         </android.support.v7.widget.RecyclerView>-->
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

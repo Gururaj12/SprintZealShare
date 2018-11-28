@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/backgroundwood">
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_marginTop="180sp"
+                    android:layout_marginBottom="60sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorWhite"
+
+                    android:textSize="35sp"
+
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/lvcheader" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/detailinfo"
+                android:text="@string/lvccon1"
+                android:padding="10sp"
+                android:layout_marginTop="50sp"
+                android:layout_marginLeft="15sp"
+                android:layout_marginRight="15sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/description"
+                android:padding="20sp"
+                android:text="@string/lvcdescp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/description1"
+                android:padding="20sp"
+                android:text="@string/lvcdescp1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/description2"
+            android:padding="20sp"
+            android:text="@string/lvcdescp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/description3"
+                android:padding="20sp"
+                android:text="@string/lvcdescp3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="120dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/instructor"
+                    android:layout_marginLeft="120dp"
+                    android:text="Your Instructor"
+                    android:textSize="25sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_marginLeft="140dp"
+                    android:layout_marginTop="40dp"
+                    android:src="@drawable/roundphoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/instructorinfo"
+                    android:padding="20sp"
+
+
+                    android:text=" Learn from our industry recognized PMP® subject matter experts. Our trainers carry decade of experience under all domain to help to understand project management concept pertaining to your domain."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/enroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="@color/colorButton"
+                    android:layout_gravity="center"
+                    android:background="@drawable/mybutton"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:text="Enroll now"
+                   />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

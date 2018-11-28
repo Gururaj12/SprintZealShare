@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "395993903488",
+    "firebase_url": "https://sprintzealmobileapp.firebaseio.com",
+    "project_id": "sprintzealmobileapp",
+    "storage_bucket": "sprintzealmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395993903488:android:674ed40c07265903",
+        "android_client_info": {
+          "package_name": "com.sprintzeal.sprint.sprintzeal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395993903488-cfo58i4cnh0flal6reitgnhlabahho3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0I4buvCapwcyE0NOdwSO4HK2ZmeqvHAI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

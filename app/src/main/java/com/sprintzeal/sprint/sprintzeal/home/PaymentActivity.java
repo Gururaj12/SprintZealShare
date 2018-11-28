@@ -21,8 +21,8 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.Status;
-import com.sprintzeal.sprint.sprintzeal.HomeBottomNavigationActivity;
-import com.sprintzeal.sprint.sprintzeal.Login.Login;
+import com.sprintzeal.sprint.sprintzeal.bottombar.HomeBottomNavigationActivity;
+import com.sprintzeal.sprint.sprintzeal.Login.RegisterActivity;
 import com.sprintzeal.sprint.sprintzeal.R;
 
 import java.util.ArrayList;
@@ -30,7 +30,7 @@ import java.util.List;
 
 public class PaymentActivity extends AppCompatActivity implements AdapterView.OnItemClickListener,GoogleApiClient.OnConnectionFailedListener {
     Spinner expirymonth,expiryyear;
-    TextView step3,step3signup,plan,limitedplan,paymentcardnumber,paymentsecuritycode;
+    TextView step3,step3signup,plan,limitedplan,paymentcardnumber,paymentsecuritycode,firstname,lastname;
     Button btnContinue,logout;
     CheckBox paymentcheck;
     private GoogleApiClient mGoogleApiClient;
@@ -44,6 +44,8 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
         step3=findViewById(R.id.step3);
         step3signup=findViewById(R.id.step3signup);
         plan=findViewById(R.id.plan);
+        firstname=findViewById(R.id.firstname);
+        lastname=findViewById(R.id.lastname);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setLogo(R.drawable.tool);
         btnContinue=findViewById(R.id.btnContinue);
@@ -52,6 +54,13 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
         paymentcardnumber=findViewById(R.id.paymentcardnumber);
         paymentsecuritycode=findViewById(R.id.paymentsecuritycode);
         logout=findViewById(R.id.logout);
+/*
+
+        Intent i=getIntent();
+
+        String title=i.getStringExtra("first_name");
+        Toast.makeText(this,"Welcome "+ title.toString(), Toast.LENGTH_SHORT).show();
+*/
 
 
 
@@ -77,6 +86,9 @@ public class PaymentActivity extends AppCompatActivity implements AdapterView.On
         paymentcheck.setTypeface(railwayrethi2);
         paymentcardnumber.setTypeface(ralelight);
         paymentsecuritycode.setTypeface(ralelight);
+        firstname.setTypeface(ralelight);
+        lastname.setTypeface(ralelight);
+
 logout.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -84,7 +96,7 @@ logout.setOnClickListener(new View.OnClickListener() {
                 new ResultCallback<Status>() {
                     @Override
                     public void onResult(Status status) {
-                        Intent intent=new Intent(PaymentActivity.this, Login.class);
+                        Intent intent=new Intent(PaymentActivity.this, RegisterActivity.class);
                         startActivity(intent);
                     }
                 });

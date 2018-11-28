@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TermsOfUse">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/newlogo"/>
+
+
+            <TextView
+
+                android:id="@+id/text1"
+                android:layout_marginTop="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="TERMS OF USE"
+
+             />
+
+            <TextView
+                android:id="@+id/text2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+
+
+                android:lineSpacingExtra="4dp"
+
+                android:text="These Terms of Use (The Terms of Use) govern use of the websites and services (the Services) of Sprintzeal., a Delaware and Indian corporation, in addition to any supplemental terms applicable to any particular features,content and functionality of the Services, which such supplemental terms are incorporated by reference into the Terms of Use. By using the Services, Users agree to be bound by these Terms of Use, our Privacy Policy, all applicable laws and all conditions or policies referenced here (collectively, the Terms). Sprintzeal may amend the Terms at any time by posting a revised version of the Terms on our Services. Access to or continued use of the Services after the effective date of the revised Terms constitutes your acceptance of the revised Terms."/>
+
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Definitions"
+
+               />
+
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+
+                android:lineSpacingExtra="4dp"
+                android:text="In these Terms, we refer to those buying our training services as Delegates and to their preferred mode of trainings as Classroom Training, Online Training, Live Online Instructor Led Training. We refer to those lead our trainings as Lead Trainers and SME – Subject Matter Expert  SME or Trainers or Contributors Service Buyers, Contributors and other visitors to the Services are referred to collectively as  Users."/>
+
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Eligibility to Use the Services"
+                />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Users under 18 years of age are not eligible to use the Services without consent. Users between the ages of 13 and 17, can use the Services with the consent and supervision of a parent or legal guardian who is at least 18 years old, provided such parent or legal guardian also agrees to bound by the Terms and agrees to be responsible for such use of the Services. Users suspended from using the Services are not eligible to use the Services. Sprintzeal reserves the right to refuse use of the Services to anyone and to reject, cancel, interrupt, remove or suspend any Online access or training opted by delegates, or the Services at any time for any reason without liability."/>
+
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="“Sprintzeal” is Professional Training and Coaching Service Provider Company."
+
+               />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Sprintzeal is an online and physical training and coaching company for people and entities seeking to raise their standards of handling day to day work with expert proven techniques. Campaign Owners have been closely evaluated on time to time basis to ensure they follow the ethics of marketing and abiding to government laws, if we notice or bought us by someone who in been practicing unethical code of conduct, Sprintzeal reserves the right to terminate the service by giving written notice within 3 days. Sprintzeal makes no representations about the quality, safety, morality or legality of any Marketing Campaign Policies, Campaigns are outsourced to third party vendors for Contribution or the truth or accuracy of User Content (as defined below) posted on the Services. Sprintzeal does not represent that Campaign Owners will deliver leads or that Contributions will be used for marketing purpose.
+
+Sprintzeal marketing its services through third party and some rules and regulations for them to abide:"/>
+
+
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Prohibited Marketing Campaigns"
+               />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Campaign Owners are not permitted to create a Campaign to raise false awareness about Sprintzeal services for illegal activities, to cause harm to people or property, or to scam others. If the Campaign is claiming to do the impossible or its just plain phony, dont post it. Users must comply with all applicable laws and regulations in connection with their Marketing Campaigns, including offerings and using user’s information safely. Campaign Owners shall not make any false or misleading statements in connection with their Campaigns. If noticed, then we will have to terminate the service within 3 days by giving written notice."/>
+
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Prohibited Visual Elements in Marketing Campaign Images"
+               />
+
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Marketing Owners are not permitted to do any of the following with Campaign images:\n\nIncorporate Sprintzeal, Or Any of the Governing Bodies like (PMI, AXELOS, APMG, People Cert, Scrum Alliance) colors and branding elements, including but not limited to logos, colored frames, borders or badges\n\nInclude any visual element that could be interpreted to have been produced by Sprintzeal, including but not limited to banners, progress bars or funding stats\n\nInclude any visual element that communicates endorsement by Sprintzeal.\n\nInclude any Trade Mark Logos and Images without the consent of regular governing bodies.\n"/>
+
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Delegates Terms of Use:"
+             />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Thank you for buying our courses. We ensure that our users have a rewarding experience while they discover, assess, and purchase our courses. As with any online purchase experience, there are terms and conditions that govern the Refund Policy. When you buy a training course on Sprintzeal, you agree to our Terms of Use Policy, Privacy Policy and Refund policy."/>
+
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Refund Policy for Delegates and Corporate Offices:"
+              />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Delegates are requested to read the terms of use before making any refund or claim or dispute. Sprintzeal reserves the right to terminate User Accounts and remove from the training venue for any abuse basic professional ethics policy. "/>
+
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="1. Classroom Training Or Live Virtual classes"
+                />
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="After booking the class if there are any changes in attendance date on attending the workshop, participant has to inform us 14 working days prior to the workshop start date, change in attending can be moved to future date without extra charge only on medical reasons. However, after booking the class, if participants do not show up for the class then No refund will be granted."/>
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="All Cancellations must be notified over email and should get acknowledgement, the refunds will be provided as below:"
+             />
+
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="If Sprintzeal cancels the training, delegates have a choice to choose Online or Online Live Virtual Class or ask for partial refund by holding the amount spent on their pre course study material such as E-Learning access, Books, or Student Manuals which will be processed within 22 business days from the date of email received for refund.\n\n
+All registrations should be made at least two to four weeks prior to workshops, unless website allows delegates to book it online over last minute.\n\n
+If delegate decides to cancel his/her attendance after booking within 30 minutes then 100% Refund will be applicable.\n\n
+Less than 20 between 16 Business days to the workshop - 75%\n\n
+Less than 16 between 11 Business days to the workshop: 50%\n\n
+Less than 10 Business days to the workshop: No refund + 10% (of Standard Course Fee) Cancellation charge will be applicable.\n\n
+If Sprintzeal cancels the training, delegates have a choice to choose Online or Online Live Virtual Class or ask for partial refund by holding the amount spent on their pre course study material such as E-Learning access, Books, or Student Manuals which will be processed within 22 business days from the date of email received for refund. \n\n
+Delegates will be paid back the same mode of payment they used to make the payment, unless otherwise agreed on different terms.\n\n
+Note: Certain training material is restricted for only Australia and UK. For more information on the offerings kindly refer FAQs of the course you are enrolling."/>
+
+
+            <TextView
+                android:id="@+id/text21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="2. Online Training -"
+
+                android:layout_gravity="center"
+                android:padding="20sp"/>
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15dp"
+                android:lineSpacingExtra="4dp"
+                android:text="All cancellations must be notified over email and should get acknowledgement and the refunds will be provided as below:\n\nWithin 10 Days of registration and before accumulating 30 minutes training: 100% refund or transfer to another online course of Delegate Choice.\n\nAfter 10 Days of registration and after accumulating 30 minutes of training: No refund will be applicable.
+Delegates will be paid back the same mode of payment they used to make the payment, unless otherwise agreed on different terms.\n\n14 Days Money Back Guarantee is also available if purchased through third party channel for all our International clients.\n\nDelegates making any dispute over the service or offerings will not be entertained."/>
+
+
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="4-day Project Management Professional (PMP)®Boot Camp with 100% Money back guarantee
+Standard Terms and Conditions"
+         />
+
+            <TextView
+                android:id="@+id/text24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="4-day PMP® Boot Camp comes with 100% money back guarantee. In case you do not clear the PMP® exam; we pay for your re-examination**.\n\nTo ensure 100% success or money back, the participant needs to take PMP® exam within a maximum of 30 days duration from the classroom training completion date**.\n\nIf the participant does not clear the PMP® exam in the 1st attempt; you get reimbursement for your PMP® re-examination fees. Participants need to take the re-exam within 30 days from the result date of the 1st attempt**.\n\nIf the participant does not clear the PMP® exam in the 2nd attempt; you get reimbursement for your PMP® re-examination fees. Participants need to take the re-exam within 30 days from the result date of the 2nd attempt**.\n\nIf the participant does not clear the PMP® exam in the 3rd attempt as well (maximum number of attempts permissible by PMI in a year); you get refund of the balance of enrolment fees paid by you at time of enrolling for the PMP® Boot Camp**.\n\nThe participants need to provide their PMP® exam scoreboards in order to get the reimbursement for course fee**.\n\nThe participants are required to pay the PMP® re-examination fees directly to the PMI. We will be reimbursing the fees subsequently**.\n\n"/>
+
+
+            <TextView
+                android:id="@+id/text25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="PMP® Exam Attempts - Maximum 3\nin a year"
+               />
+
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Money Back Guarantee: Reimbursement Proces"
+              />
+
+            <TextView
+                android:id="@+id/text27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="The participants are required to pay e-mail scanned copies of their PMP® scorecards of each attempt to support@sprintzeal.com  along with the PMP® Boot Camp location and date.\n\nWe will reimburse the amount payable within 30 days of us receiving all the documents from you.\n\nThe mode of reimbursement will be same as the mode of payment used during enrolment fees. For example: If a participant has paid through PayPal, we will reimburse through PayPal only\n\nMoney back guarantee is applicable only for Sprintzeal’s 4-day PMP® Boot Camp and for online classroom PMP® training."/>
+
+
+
+            <TextView
+                android:id="@+id/text28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="When Money Back Guarantee is void?"
+              />
+
+            <TextView
+                android:id="@+id/text29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Participants not taking the PMP® examination within 30 days of the classroom training completion date.\n\nParticipants not taking the re-exam within 30 days of the previous attempt result date.\n\nParticipants not maintaining 100% attendance in the 4-day PMP® Boot Camp.\n\nParticipants not going through the e-learning content. 8 hours of online study is required for you to familiarize yourself with the PMP® course.\n\nFailing to score at least 80% in online PMP® simulation tests at sprintzeal.com\n\nParticipants not following the instructions and completing the exercises given in the 4-day PMP® Boot Camp.\n\nParticipants not submitting the required documents to SprintZeal.\n\nThe amount reimbursed towards the re-examination fee for each attempt based on mode of taking exam and PMI membership. The PMP® examination fee will not be reimbursed.\n\n  **Participants are required to pass in exam simulators with a score of more than 80% to claim re-examination fee."/>
+
+
+            <TextView
+                android:id="@+id/text30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="2-day ITIL® Foundation with 100% Money back guarantee Standard Terms and Conditions"
+                />
+
+
+            <TextView
+                android:id="@+id/text31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="2-day ITIL® Foundation comes with 100% money back guarantee. In case you do not clear the ITIL® Foundation exam; we pay for your re-examination.\n\nTo ensure 100% success or money back, the participant needs to take ITIL® Foundation exam within a maximum of 30 days duration from the classroom training completion date**.\n\nIf the participant does not clear the ITIL® Foundation exam in the 1st attempt; you get paid for your ITIL® Foundation re-examination fees. Participants need to take the re-exam within 30 days from the result date of the 1st attempt**.\n\nIf the participant does not clear the ITIL® Foundation exam in the 2nd attempt; you get refund of the balance of enrolment fees paid by you at time of enrolling for the ITIL® Foundation"/>
+
+
+            <TextView
+                android:id="@+id/text32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Money Back Guarantee: Reimbursement Process"
+               />
+
+            <TextView
+                android:id="@+id/text33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="The participants are required to pay e-mail scanned copies of their ITIL® Foundation scorecards of each attempt to support@sprintzeal.com  along with the ITIL® Foundation location and date.\n\nWe will pay or reimburse the amount payable within 30 days of us receiving all the documents from you.\n\nThe mode of reimbursement will be same as the mode of payment used during enrolment fees. For example: If a participant has paid through PayPal, we will reimburse through PayPal only\n\nMoney back guarantee is applicable only for Sprintzeal’s 2-day ITIL® Foundation and for online classroom ITIL® Foundation training."/>
+
+
+
+            <TextView
+                android:id="@+id/text34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="When Money Back Guarantee is void?"
+                />
+
+            <TextView
+                android:id="@+id/text35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Participants not taking the ITIL® Foundation examination within 30 days of the classroom training completion date.\n\nParticipants not taking the re-exam within 30 days of the previous attempt result date.\n\nParticipants not maintaining 100% attendance in the 2-day ITIL® Foundation training.\n\nParticipants not going through the e-learning content. 8 hours of online study is required for you to familiarize yourself with the ITIL® Foundation course.\n\nFailing to score at least 80% in online ITIL® Foundation simulation tests at sprintzeal.com\n\nParticipants not following the instructions and completing the exercises given in the 2-day ITIL® Foundation\n\nParticipants not submitting the required documents to SprintZeal."/>
+
+
+
+            <TextView
+                android:id="@+id/text36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="PRINCE2® with 100% Money back guarantee Standard Terms and Conditions"
+                />
+
+            <TextView
+                android:id="@+id/text37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:textSize="15dp"
+                android:lineSpacingExtra="4dp"
+                android:text=" PRINCE2® comes with 100% money back guarantee. In case you do not clear the PRINCE2® exam; we pay for your re-examination.\n\nTo ensure 100% success or money back, the participant needs to take PRINCE2® exam within a maximum of 30 days duration from the classroom training completion date**.\n\nIf the participant does not clear the PRINCE2® exam in the 1st attempt; you get paid for your PRINCE2® re-examination fees. Participants need to take the re-exam within 30 days from the result date of the 1st attempt**.\n\nIf the participant does not clear the PRINCE2® exam in the 2nd attempt; you get refund of the balance of enrolment fees paid by you at time of enrolling for the PRINCE2®"/>
+
+
+            <TextView
+                android:id="@+id/text38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Money Back Guarantee: Reimbursement Process"
+            />
+
+            <TextView
+                android:id="@+id/text39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="The participants are required to pay e-mail scanned copies of their PRINCE2® scorecards of each attempt to support@sprintzeal.com  along with the PRINCE2® location and date.\n\nWe will pay or reimburse the amount payable within 30 days of us receiving all the documents from you.\n\nThe mode of reimbursement will be same as the mode of payment used during enrolment fees. For example: If a participant has paid through PayPal, we will reimburse through PayPal only\n\nMoney back guarantee is applicable only for Sprintzeal’s 2-day PRINCE2® and for online classroom PRINCE2® training."/>
+
+
+
+            <TextView
+                android:id="@+id/text40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="When Money Back Guarantee is void?"
+                />
+
+
+            <TextView
+                android:id="@+id/text41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="Participants not taking the PRINCE2® examination within 30 days of the classroom training completion date.\n\nParticipants not taking the re-exam within 30 days of the previous attempt result date.\n\nParticipants not maintaining 100% attendance in the  PRINCE2® training.\n\nParticipants not going through the e-learning content. 8 hours of online study is required for you to familiarize yourself with the PRINCE2® course.\n\nFailing to score at least 80% in online PRINCE2® simulation tests at sprintzeal.com\n\nParticipants not following the instructions and completing the exercises given in the  PRINCE2®\n\nParticipants not submitting the required documents to SprintZeal."/>
+
+
+
+
+            <TextView
+                android:id="@+id/text42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:text="Updates To This Agreement"
+         />
+
+
+            <TextView
+                android:id="@+id/text43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center"
+                android:padding="20sp"
+                android:lineSpacingExtra="4dp"
+                android:text="January 31st, 2012: Eligibility and use the service by minors with guardians consent. And explained why it is important and who should use our services to get benefited.\n\nFebruary 6th, 2014: Prohibited marketing strategies, after the regular evaluation, we take advertise seriously, we understand the emotions behind. We have added Marketing rules and regulations for our third party marketing companies to ensure they follow the etiquettes of marketing.\n\nOctober 7th, 2015: We revised the Trade Marks Usage policy to ensure the Trademarks are not misused in marketing or selling the service."/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

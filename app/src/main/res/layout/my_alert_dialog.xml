@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@android:color/white"
+    tools:context=".TestActivity">
+
+
+    <LinearLayout
+        android:layout_gravity="center"
+       android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remaining Time"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:paddingTop="9sp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:text="2:30"/>
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="1sp"
+            android:padding="10dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="#4BB0B6"
+
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Answered  11"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="9sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="#B299B2"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Skipped 15"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:paddingTop="9sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="#E5D359"
+            android:textColor="@android:color/holo_red_light"
+            android:gravity="center"
+            android:padding="10sp"
+            android:layout_gravity="center"
+            android:text="Revise Later 26"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:paddingTop="9sp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="#C9CACB"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:padding="10sp"
+            android:layout_gravity="center"
+            android:text="Unattempted 20"/>
+
+
+        <Button
+            android:id="@+id/review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Review Test"
+            android:background="#6072B9"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="120dp"/>
+
+        <Button
+            android:id="@+id/submittest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Submit Test"
+            android:background="@android:color/holo_red_light"
+            android:textColorHint="@android:color/white"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="120dp"
+            android:layout_marginLeft="120dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+

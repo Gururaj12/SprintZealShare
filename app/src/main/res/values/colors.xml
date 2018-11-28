@@ -7,8 +7,19 @@
     <color name="colorBlack">#2e3237</color>
     <color name="colorButton">#ff7700</color>
     <color name="colorbnavigationButton">#ffb26f</color>
+    <color name="darkGray">#a9a9a9</color>
+    <color name="color1">#2196F3</color>
+    <color name="Green">#2196F3</color>
+    <color name="grey">#acadae</color>
 
     <color name="bgBottomNavigation">#fe485a</color>
+    <color name="answered">#48c1ab</color>
+    <color name="skipped">#888989</color>
+    <color name="unattemped">#c8c9c9</color>
+
+    <color name="button_pressed">#ff8a00</color>
+    <color name="button_focused">#ff8a00</color>
+    <color name="button_default">#d4d6d7</color>
 
 
 

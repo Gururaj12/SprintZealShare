@@ -1,8 +1,10 @@
 package com.sprintzeal.sprint.sprintzeal.home;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
 import android.location.Address;
@@ -12,13 +14,16 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentTabHost;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -32,14 +37,19 @@ import com.google.android.gms.location.LocationServices;
 import com.sprintzeal.sprint.sprintzeal.Login.Login;
 import com.sprintzeal.sprint.sprintzeal.Login.RegisterActivity;
 import com.sprintzeal.sprint.sprintzeal.R;
+import com.sprintzeal.sprint.sprintzeal.RegisterActivityDemo;
 import com.sprintzeal.sprint.sprintzeal.Tabs.CancelTab;
 import com.sprintzeal.sprint.sprintzeal.Tabs.DevicesTab;
 import com.sprintzeal.sprint.sprintzeal.Tabs.PriceTab;
+import com.sprintzeal.sprint.sprintzeal.Trunks;
+import com.sprintzeal.sprint.sprintzeal.bottombar.HomeBottomNavigationActivity;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
+import static com.sprintzeal.sprint.sprintzeal.bottombar.HomeBottomNavigationActivity.pref;
 
 public class HomePage extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener, LocationListener {
@@ -65,7 +75,13 @@ public class HomePage extends AppCompatActivity implements GoogleApiClient.Conne
    Button offer,login;
     private FragmentTabHost mTabHost;
     TabHost.TabSpec tab1;
- //   private TabLayout tabLayout;
+
+    //SharedPreference
+    SharedPreferences pref;
+    SharedPreferences.Editor editor;
+    //--
+
+    //   private TabLayout tabLayout;
 
     //This is our viewPager
    /* private ViewPager viewPager;
@@ -75,6 +91,7 @@ public class HomePage extends AppCompatActivity implements GoogleApiClient.Conne
             R.drawable.price
     };*/
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,6 +108,16 @@ public class HomePage extends AppCompatActivity implements GoogleApiClient.Conne
         description.setTypeface(railwayrethi2);
         offer.setTypeface(raleRegular);
         login.setTypeface(raleRegular);
+        //SharedPreference
+        pref = getApplicationContext().getSharedPreferences(Trunks.SHP_NAME,MODE_PRIVATE);
+        editor = pref.edit();
+        //--
+        String email = pref.getString(Trunks.SHP_EMAIL,"no");
+        if (!email.equalsIgnoreCase("no")){
+            Intent i = new Intent(this,HomeBottomNavigationActivity.class);
+            startActivity(i);
+            finish();
+        }
 
 
 
@@ -101,14 +128,16 @@ public class HomePage extends AppCompatActivity implements GoogleApiClient.Conne
 
 
         mTabHost.addTab(
-                mTabHost.newTabSpec("tab1").setIndicator("Cancel", null),
+                mTabHost.newTabSpec("tab1").setIndicator(getTabIndicator(mTabHost.getContext(),R.string.cancel,R.drawable.ic_cancel)),
                 CancelTab.class, null);
         mTabHost.addTab(
-                mTabHost.newTabSpec("tab2").setIndicator("Devices", null),
+                mTabHost.newTabSpec("tab2").setIndicator(getTabIndicator(mTabHost.getContext(),R.string.device,R.drawable.ic_device)),
                 DevicesTab.class, null);
         mTabHost.addTab(
-                mTabHost.newTabSpec("tab3").setIndicator("Price", null),
+                mTabHost.newTabSpec("tab3").setIndicator(getTabIndicator(mTabHost.getContext(),R.string.price,R.drawable.ic_price)),
                 PriceTab.class, null);
+
+
 
        /* offer=(Button) findViewById(R.id.offer);
         login=findViewById(R.id.login);*/
@@ -380,4 +409,13 @@ public class HomePage extends AppCompatActivity implements GoogleApiClient.Conne
         tabLayout.getTabAt(1).setIcon(tabIcons[1]);
         tabLayout.getTabAt(2).setIcon(tabIcons[2]);
     }*/
+
+    private View getTabIndicator(Context context, int title, int icon) {
+        View view = LayoutInflater.from(context).inflate(R.layout.tab_layout, null);
+        ImageView iv = (ImageView) view.findViewById(R.id.imageView);
+        iv.setImageResource(icon);
+        TextView tv = (TextView) view.findViewById(R.id.textView);
+        tv.setText(title);
+        return view;
+    }
 }

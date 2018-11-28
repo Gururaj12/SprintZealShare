@@ -20,6 +20,13 @@
             android:padding="10dp"
             android:layout_alignParentLeft="true"
             android:background="@color/colorWhite" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+
+            android:src="@drawable/newlogo"/>
 
         <TextView
             android:id="@+id/step1"
@@ -83,6 +90,7 @@
 
         <LinearLayout
         android:layout_width="match_parent"
+            android:visibility="gone"
             android:orientation="vertical"
             android:layout_height="wrap_content"
         android:padding="30dp">
@@ -93,6 +101,7 @@
                 android:layout_height="wrap_content"
                 android:paddingBottom="15dp"
                 android:paddingTop="15dp"
+                android:visibility="gone"
                 android:layout_gravity="center"
                 app:layout_constraintBottom_toBottomOf="parent"
 
@@ -103,6 +112,7 @@
             <com.google.android.gms.common.SignInButton
                 android:id="@+id/sign_in_button"
              android:layout_gravity="center"
+                android:visibility="gone"
 
                 android:paddingBottom="15dp"
                 android:paddingTop="15dp"
@@ -383,7 +393,7 @@
                 android:id="@+id/check"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="read and accept Terms and Conditions"/>
+                android:text="I Agree Terms and Conditions"/>
         </LinearLayout>
 
 
@@ -406,7 +416,7 @@
         <!-- Link to Login Screen -->
 
         <Button
-            android:id="@+id/btnLinkToRegisterScreen"
+            android:id="@+id/forgotpassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
 
