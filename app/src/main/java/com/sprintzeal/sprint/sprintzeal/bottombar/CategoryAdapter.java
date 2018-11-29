@@ -43,7 +43,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
                 CategoryAdapter.this.clicklistener.itemClicked("", String.valueOf(CategoryAdapter.this.categoryCourseBeanList.get(adapterPosition)),"", view, adapterPosition, 2);
             }
 
-            
+
         }
     }
 
